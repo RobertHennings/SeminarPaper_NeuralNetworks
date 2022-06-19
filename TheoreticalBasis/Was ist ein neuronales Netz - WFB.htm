@@ -1,0 +1,2860 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" class="csspositionsticky no-touchevents supports csstransforms3d js-focus-visible" data-js-focus-visible="" lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <link rel="shortcut icon" type="image/x-icon" href="https://www.wfb-bremen.de/static/modules/wfb/assets/favicon.ico">
+            <script type="text/javascript" async="" defer="defer" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/matomo_002.js"></script><script>
+            if (typeof module === 'object') {
+                window.module = module;
+                module = undefined;
+            }
+        </script>
+        <title>
+            Was ist ein neuronales Netz? -
+            WFB
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="WFB">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <meta name="title" content="Was ist ein neuronales Netz?">
+        <meta name="description" content="Neuronale Netze einfach erklärt - sie sind die Grundlage für den Boom der Künstlichen Intelligenz. Wie funktionieren Sie?">
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:title" content="Was ist ein neuronales Netz?">
+        <meta name="twitter:title" content="Was ist ein neuronales Netz?">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-ein-neuronales-netz">
+        <meta name="twitter:url" content="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-ein-neuronales-netz">
+        <meta property="og:description" content="Neuronale Netze einfach erklärt - sie sind die Grundlage für den Boom der Künstlichen Intelligenz. Wie funktionieren Sie?">
+        <meta name="twitter:description" content="Neuronale Netze einfach erklärt - sie sind die Grundlage für den Boom der Künstlichen Intelligenz. Wie funktionieren Sie?">
+        <meta property="og:image" content="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/neuronalesnetz.png.57695.png">
+        <meta name="twitter:site" content="@WFBBremen">
+        <meta name="twitter:card" content="summary_large_image">
+        
+        
+        
+        
+        <link rel="canonical" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-ein-neuronales-netz">
+        <link href="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/ekko-lightbox.css" type="text/css" rel="stylesheet" media=""><link href="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/all.css" type="text/css" rel="stylesheet" media=""><link href="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/entypo.css" type="text/css" rel="stylesheet" media=""><link href="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/wfb.css" type="text/css" rel="stylesheet" media="">
+        <script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/matomo.js" type="application/javascript" data-key="matomo"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/polyfill.js" type="application/javascript" data-key="polyfill-classlist"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/jquery.js" type="application/javascript" data-key="jquery"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/jquery_002.js" type="application/javascript" data-key="jquery.match-height"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/js.js" type="application/javascript" data-key="jquery.cookie"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/bootstrap.js" type="application/javascript" data-key="bootstrap"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/ekko-lightbox.js" type="application/javascript" data-key="lightbox"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/modernizr.js" type="application/javascript" data-key="modernizr"></script><script src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/WFBApplication.js" type="application/javascript" data-key="wfb.application"></script>
+        
+        </head>
+
+        <body data-site="wfb" data-contrast="normal">
+            
+            <header class="container header">
+            <div class="header-content">
+                <a class="header-logo logo-base" href="https://www.wfb-bremen.de/de/page/startseite"></a>
+                <div class="desk-searchform">
+                    <form action="https://www.wfb-bremen.de/de/page/suche" method="GET">
+                        <input class="desk-search" type="search" name="q" placeholder="Suchbegriff eingeben">
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="header-meta">
+                    <a class="lang de" href="https://www.wfb-bremen.de/de/page/startseite" target="_self"></a><a class="lang en" href="https://www.wfb-bremen.de/en/page/bremeninvest-start" target="_self"></a><a class="lang zh" href="http://www.bremen-invest.cn/" target="_blank"></a><a class="lang tr" href="https://www.wfb-bremen.de/tr/page/turkiye-home" target="_self"></a><a class="lang vi" href="https://www.wfb-bremen.de/vi/page/chia-khoa-vao-nuoc-Duc" target="_self"></a>
+                    <div class="header-phone">
+                        <i class="fas fa-phone"></i>
+                        +49 (0) 421 9600-10
+                    </div>
+                    <a class="social-button  facebook" href="https://www.facebook.com/WFB-Wirtschaftsf%C3%B6rderung-Bremen-GmbH-166349760045509" title="Sie wechseln zum Internetangebot von Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a><a class="social-button  twitter" href="https://twitter.com/WFBBremen" title="Suie wechseln zum Internetangebot von Twitter" target="_blank"><i class="fab fa-twitter"></i></a><a class="social-button  youtube" href="https://www.youtube.com/user/BREMENwirtschaft" title="Sie wechseln zum Internetangebot von Youtube" target="_blank"><i class="fab fa-youtube"></i></a><a class="social-button  linkedin" href="https://www.linkedin.com/company/wfb-wirtschaftsf%C3%B6rderung-bremen-gmbh" title="Sie wechseln zum Internetangebot von Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a><a class="social-button  instagram" href="https://www.instagram.com/wfbbremen/?hl=de" title="&lt;!-- UNSOLVED[de.header-social-media-instagram] --&gt;" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="header-accessiblity">
+                    <a class="accessibility-button fas fa-text-height" data-cookie="TEXT_ZOOM" title="Text größer/kleiner" href="#"></a>
+                    <a class="accessibility-button fas fa-adjust" data-cookie="HIGH_CONTRAST" title="Hoher Kontrast an/aus" href="#"></a>
+                    <a class="accessibility-button" href="https://www.wfb-bremen.de/de/page/leichte-sprache" title="Informationen zur Barrierefreiheitserklärung in leichter Sprache">
+            <img src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/leichte_sprache_weiss.svg" alt="Informationen zur Barrierefreiheitserklärung in leichter Sprache">
+        </a><a class="accessibility-button" href="https://www.wfb-bremen.de/de/page/gebaerdensprache" title="Informationen zur Barrierefreiheitserklärung in Gebärdensprache">
+            <img src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/gebaerdensprache_weiss.svg" alt="Informationen zur Barrierefreiheitserklärung in Gebärdensprache">
+        </a>
+                </div>
+                <a class="header-logo logo-extra" href="https://www.wfb-bremen.de/"></a>
+                <a class="header-logo logo-bremen" href="https://www.bremen.de/"></a>
+                
+            </div>
+        </header>
+            <div id="navigation" class="container">
+            <nav class="main-menu">
+                <div class="menu-toggle mobile-only">
+                    <i class="fas fa-bars"></i>
+                    <span>
+                        Menü
+                    </span>
+                </div>
+                <ul class="menu-list main" style="max-height: 577px;">
+                    <li class="mobile-search mobile-only">
+            <form action="https://www.wfb-bremen.de/de/page/suche" method="GET">
+                <input type="search" name="q" placeholder="Suchbegriff eingeben">
+            </form>
+        </li>
+                    <li class="menu-item main-item  has-children">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen">
+                
+                <span class="menu-item-link-text">
+                    Wirtschaftsstandort<br> Bremen
+                </span>
+            </a>
+            <a class="menu-sub-open mobile-only" href="#">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        <ul class="menu-sub-list">
+            <a class="menu-sub-close mobile-only" href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <li class="menu-sub-item  first">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/automotive" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Automotive
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/digitalisierung" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Digitalisierung
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/immobilienwirtschaft" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Immobilienwirtschaft
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/luft-und-raumfahrt" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Luft- und Raumfahrt
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/maritime-wirtschaft-logistik" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Maritime Wirtschaft / Logistik
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/branche-nahrung-genuss" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Nahrungs- und Genussmittel
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/startup" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Start-ups
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/tourismus" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Tourismus und Kongresse
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/windenergie" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Windenergie
+                </span>
+            </a>
+        </li><li class="menu-sub-item  last">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/mehr-branchen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Weitere Branchen
+                </span>
+            </a>
+        </li>
+        </ul>
+        </li><li class="menu-item main-item  has-children">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung">
+                
+                <span class="menu-item-link-text">
+                    Beratung &amp;<br> Förderung
+                </span>
+            </a>
+            <a class="menu-sub-open mobile-only" href="#">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        <ul class="menu-sub-list">
+            <a class="menu-sub-close mobile-only" href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <li class="menu-sub-item  first">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung/service-fuer-unternehmen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Service für Unternehmen
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung/fachkraefte" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Fachkräfte für Bremen
+                </span>
+            </a>
+        </li><li class="menu-sub-item  last">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung/foerderprogramme-fuer-bremen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Förderangebote
+                </span>
+            </a>
+        </li>
+        </ul>
+        </li><li class="menu-item main-item  has-children">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien">
+                
+                <span class="menu-item-link-text">
+                    Grundstücke<br> &amp; Immobilien
+                </span>
+            </a>
+            <a class="menu-sub-open mobile-only" href="#">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        <ul class="menu-sub-list">
+            <a class="menu-sub-close mobile-only" href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <li class="menu-sub-item  first">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/gewerbeflaechen-bremen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Gewerbeflächen
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/gewerbeimmobilien-bremen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Gewerbeimmobilien
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/immobilien-marktdaten" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Marktdaten
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/technologie-gruenderzentren" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Technologie- / Gründerzentren
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/technologie-gruenderzentren/world-trade-center-bremen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    World Trade Center
+                </span>
+            </a>
+        </li><li class="menu-sub-item  last">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/ecomat" target="_self">
+                <span class="menu-sub-item-link-text">
+                    ECOMAT Zentrum für Leichtbau
+                </span>
+            </a>
+        </li>
+        </ul>
+        </li><li class="menu-item main-item  has-children">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/ansiedlung">
+                
+                <span class="menu-item-link-text">
+                    Ansiedlung
+                </span>
+            </a>
+            <a class="menu-sub-open mobile-only" href="#">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        <ul class="menu-sub-list">
+            <a class="menu-sub-close mobile-only" href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <li class="menu-sub-item  first">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/ansiedlung/ansiedlung-in-bremen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Unsere Ansiedlungsservices
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/bremen-international" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Bremen international
+                </span>
+            </a>
+        </li><li class="menu-sub-item  last">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/ansiedlung/ansiedlung_referenzen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Referenzen
+                </span>
+            </a>
+        </li>
+        </ul>
+        </li><li class="menu-item main-item  has-children">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/marketing">
+                
+                <span class="menu-item-link-text">
+                    Marketing<br> für Bremen
+                </span>
+            </a>
+            <a class="menu-sub-open mobile-only" href="#">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        <ul class="menu-sub-list">
+            <a class="menu-sub-close mobile-only" href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <li class="menu-sub-item  first">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/marketing/messebeteiligungen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Messebeteiligungen
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/marketing/projekte" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Marketing-Projekte
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/marketing/kultur-und-sportveranstaltungsfoerderung" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Veranstaltungsförderung
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/marketing/marketing-planungsservice" target="_self">
+                <span class="menu-sub-item-link-text">
+                    CD- und Marken-Manual
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/marketing/media-center" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Marketing-Service
+                </span>
+            </a>
+        </li><li class="menu-sub-item  last">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/marketing/tourismusstrategie" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Tourismusstrategie Bremen 2025
+                </span>
+            </a>
+        </li>
+        </ul>
+        </li><li class="menu-item main-item  has-children">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles">
+                
+                <span class="menu-item-link-text">
+                    Presse &amp;<br> Aktuelles
+                </span>
+            </a>
+            <a class="menu-sub-open mobile-only" href="#">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        <ul class="menu-sub-list">
+            <a class="menu-sub-close mobile-only" href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <li class="menu-sub-item  first">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles/presse" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Presse / Pressedienst
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles/kundenmagazin" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Kundenmagazin WFB News
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles/newsletter_anmeldung" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Newsletter der WFB
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles/podcast" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Podcast
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles/veranstaltungen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Veranstaltungskalender
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles/ausschreibungen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Ausschreibungen
+                </span>
+            </a>
+        </li><li class="menu-sub-item  last">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/aktuelles/publikationen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Downloads / Publikationen
+                </span>
+            </a>
+        </li>
+        </ul>
+        </li><li class="menu-item main-item  has-children">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/ueber-uns">
+                
+                <span class="menu-item-link-text">
+                    Über uns
+                </span>
+            </a>
+            <a class="menu-sub-open mobile-only" href="#">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        <ul class="menu-sub-list">
+            <a class="menu-sub-close mobile-only" href="#">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <li class="menu-sub-item  first">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/ueber-uns/anfahrt-kontakt" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Anfahrt / Kontakt
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/ueber-uns/ansprechpersonen" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Ansprechpersonen
+                </span>
+            </a>
+        </li><li class="menu-sub-item ">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/ueber-uns/stellenangebote" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Stellenangebote
+                </span>
+            </a>
+        </li><li class="menu-sub-item  last">
+            <a class="menu-sub-item-link" href="https://www.wfb-bremen.de/de/page/ueber-uns/corporate-governance" target="_self">
+                <span class="menu-sub-item-link-text">
+                    Corporate Governance und Beteiligungen
+                </span>
+            </a>
+        </li>
+        </ul>
+        </li>
+                    <li class="mobile-lang mobile-only">
+                        <a class="lang de" href="https://www.wfb-bremen.de/de/page/startseite" target="_self"></a><a class="lang en" href="https://www.wfb-bremen.de/en/page/bremeninvest-start" target="_self"></a><a class="lang zh" href="http://www.bremen-invest.cn/" target="_blank"></a><a class="lang tr" href="https://www.wfb-bremen.de/tr/page/turkiye-home" target="_self"></a><a class="lang vi" href="https://www.wfb-bremen.de/vi/page/chia-khoa-vao-nuoc-Duc" target="_self"></a>
+                    </li>
+                    <li class="mobile-social mobile-only">
+                        <a class="social-button facebook" href="https://www.facebook.com/WFB-Wirtschaftsf%C3%B6rderung-Bremen-GmbH-166349760045509" title="Sie wechseln zum Internetangebot von Facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a><a class="social-button twitter" href="https://twitter.com/WFBBremen" title="Suie wechseln zum Internetangebot von Twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a><a class="social-button youtube" href="https://www.youtube.com/user/BREMENwirtschaft" title="Sie wechseln zum Internetangebot von Youtube" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a><a class="social-button linkedin" href="https://www.linkedin.com/company/wfb-wirtschaftsf%C3%B6rderung-bremen-gmbh" title="Sie wechseln zum Internetangebot von Linkedin" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a><a class="social-button instagram" href="https://www.instagram.com/wfbbremen/?hl=de" title="&lt;!-- UNSOLVED[de.header-social-media-instagram] --&gt;" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+                    </li>
+                </ul>
+                <ul class="menu-list service">
+                    <li class="menu-item service-item ">
+            <a class="menu-item-link" href="https://www.wfb-bremen.de/de/page/startseite/bremen-wirtschaft-stories">
+                <i class="menu-item-icon entypo entypo-info-circle"></i>
+                <span class="menu-item-link-text">
+                    Stories<br> aus  Bremen
+                </span>
+            </a>
+            
+        </li>
+                </ul>
+            </nav>
+        </div>
+            
+        <div class="container breadcrumb-bar">
+            <ol class="breadcrumb">
+                <li>
+            <a href="https://www.wfb-bremen.de/de/page/startseite">
+                <i class="entypo entypo-home entypo-small" aria-label="Startseite"></i>
+        <!-- <i class="fas fa-home" aria-label="Startseite"></i> -->
+            </a>
+        </li><li class="active">
+            Was ist ein neuronales Netz?
+        </li>
+            </ol>
+        </div>
+        <div class="container wfb-page">
+            <div class="cmc-page-header">
+            <span>
+                28.4.2020
+            </span>
+            <span>-</span>
+            <span>
+                Jann Raveling
+            </span>
+        </div>
+            <h1>
+                Was ist ein neuronales Netz?
+            </h1>
+            <span class="category">
+            Digitalisierung / Industrie 4.0
+        </span>
+            <h2 class="subline">
+                Begriffe rund um die KI, Maschinelles Lernen und neuronale Netze erklärt
+            </h2>
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="row">
+                <div class="col-lg-8 content-container">
+                    <div id="wfb-66870" class="content" data-containertype="base-content">
+            <div class="content-base-title">
+                
+            </div>
+            <div class="row">
+            
+            
+            <div class="col-lg-12">
+                <div data-owner="" data-description="" style="margin: 20px 0">
+            <img alt="neuronales Netz " title="neuronales Netz " class="content-single-image" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/neuronalesnetz.png" data-title="neuronales Netz &lt;br&gt;&lt;p class=&quot;lightbox-caption-text&quot;&gt;&lt;/p&gt;" href="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/neuronalesnetz.png.57695.png" data-toggle="lightbox" style="margin: 0">
+            <figcaption class="image-caption">
+                <span class="caption">
+                    
+                </span>
+                <span class="copyright">
+                    
+                </span>
+            </figcaption>
+            <br>
+        </div>
+                <p><b>Was ist ein neuronales Netz? Was maschinelles 
+Lernen? Begriffe, die oft gleich benutzt werden, sich aber ihrer 
+Definition nach unterscheiden. Wir erklären, was es mit ihnen auf sich 
+hat.</b></p>
+<p><a href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-kuenstliche-intelligenz-definition-ki" target="_blank" rel="noopener noreferrer">In
+ unserem ersten Teil zum Thema Künstliche Intelligenz (KI) haben wir uns
+ die Frage gestellt, was eine KI ist, was sie kann und wie sie 
+allmählich in unserer Alltagswelt Einzug hält.</a> Jetzt geht es ans Eingemachte: Wie genau funktioniert die derzeit populärste Form der KI, das neuronale Netz?</p>
+<h3><b>Was ist was? Begriffe definiert</b></h3>
+<p>Die Begriffe KI, maschinelles Lernen und neuronale Netze fallen 
+häufig in Artikeln rund um neue Technologien. Wenngleich die Begriffe 
+alle Ähnlichkeiten aufweisen und immer öfter synonym verwendet werden, 
+ist es doch wichtig, diese zu unterscheiden. <b>KI</b> steht als 
+Überbegriff für den Versuch, einem Computer menschliches oder komplexes 
+Denken beizubringen – im Gegensatz zu dem stumpfen Abarbeiten von 
+feststehenden, einmal vorprogrammierten Funktionen. Der Computer <i>programmiert</i> sich selbst, er lernt aus Erfahrung und ist in der Lage, mit neuen Situationen umzugehen.</p>
+                
+                <div data-owner="© WFB/Raveling" data-description="Zur KI werden viele verschiedene Technologien gezählt" style="margin: 20px 0">
+            <img alt="Zur KI werden viele verschiedene Technologien gezählt" title="Zur KI werden viele verschiedene Technologien gezählt" class="content-single-image" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/KI_Ubersicht.png" data-title="Zur KI werden viele verschiedene Technologien gezählt&lt;br&gt;&lt;p class=&quot;lightbox-caption-text&quot;&gt;Zur KI werden viele verschiedene Technologien gezählt&lt;br&gt;© WFB/Raveling&lt;/p&gt;" href="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/KI_Ubersicht.png.57700.png" data-toggle="lightbox" style="margin: 0">
+            <figcaption class="image-caption">
+                <span class="caption">
+                    Zur KI werden viele verschiedene Technologien gezählt
+                </span>
+                <span class="copyright">
+                    © WFB/Raveling
+                </span>
+            </figcaption>
+            <br>
+        </div>
+                
+                
+            </div>
+            
+            
+        </div>
+        </div><div id="wfb-66871" class="content" data-containertype="base-content">
+            <div class="content-base-title">
+                
+            </div>
+            <div class="row">
+            
+            
+            <div class="col-lg-12">
+                
+                <h3>Maschinelles Lernen definiert als Teildisziplin der Künstlichen Intelligenz</h3>
+<p>Es gibt viele verschiedene Wege, dieses Ziel zu erreichen. So zählen 
+Suchmaschinen wie Google zu den KIs. Eine spezielle Methode innerhalb 
+der KI ist das <b>maschinelle Lernen</b>. Es stellt den Ansatz dar, 
+einem Computer das Lernen aus Erfahrung beizubringen. Das heißt: Ein 
+Computer lernt aus allgemeinen Daten ein Muster, eine Regel abzuleiten, 
+dass diesem bestmöglich entspricht und kann es auf neue Daten anwenden. 
+Etwa einen Apfel von einer Birne zu unterscheiden.</p>
+<p>Dabei kommt immer ein Wahrscheinlichkeitswert heraus, denn der 
+Computer wird mit neuen, bisher unbekannten Daten konfrontiert und 
+errechnet daraus die beste Näherung - er kann sich aber auch irren. Das 
+ist genau wie bei uns – denn auch wir könnten zum Beispiel eine 
+Nashi-Birne, die aussieht wie ein Apfel, für einen echten Apfel halten. 
+Mit dem Unterschied, dass KIs, einmal trainiert, besser entscheiden als 
+Menschen es tun könnten.</p>
+<p>Innerhalb des maschinellen Lernens gibt es verschiedene Ansätze, 
+selbstlernende Systeme zu programmieren. Diese unterteilen sich in 
+einerseits <b>überwachtes</b> und andererseits <b>unüberwachtes Lernen</b>.
+ Während bei Ersterem ein Mensch dem Computer mitteilt, was er lernen 
+soll („Dieses Bild von einem Apfel ist ein Apfel, lerne, auch neue 
+Bilder als Apfel zu erkennen!“) muss der Computer bei Letzterem selbst 
+Strukturen in den Daten finden und diese sortieren – dafür können aber 
+nur Menschen diese interpretieren.</p>
+<h3>Was ist ein neuronales Netz?</h3>
+<p>Neuronale Netze sind nun als Teil des überwachten Lernens wiederum 
+das derzeit relevanteste Teilgebiet des maschinellen Lernens. Sie sind 
+für den derzeitigen Trubel um die KI verantwortlich, denn sie sind in 
+der Lage, große Mengen an unstrukturierten Daten besonders gut 
+auszuwerten und Muster in ihnen zu finden. Zu unstrukturierten Daten 
+gehören Bilder, Videos oder Töne, also all jene Daten, wir in unserem 
+Alltag in großer Menge produzieren.</p>
+<p>Sie leihen sich ihren Begriff aus der Biologie aus. Im menschlichen 
+Gehirn ist ein Neuron eine Nervenzelle, die mit anderen Nervenzellen 
+verbunden ist und elektrische Signale an diese weitergibt. Aus 
+Milliarden von Neuronen setzt sich das Gehirn zusammen und aus ihrer 
+Aktivität unser Geist.</p>
+                
+                <div data-owner="© WFB/Raveling" data-description="Wie die Nervenzelle verarbeitet auch ein künstliches Neuron Signale und gibt einen Output weiter" style="margin: 20px 0">
+            <img alt="Wie die Nervenzelle verarbeitet auch ein künstliches Neuron Signale und gibt einen Output weiter" title="Wie die Nervenzelle verarbeitet auch ein künstliches Neuron Signale und gibt einen Output weiter" class="content-single-image" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/Zelle_KI.png" data-title="Wie die Nervenzelle verarbeitet auch ein künstliches Neuron Signale und gibt einen Output weiter&lt;br&gt;&lt;p class=&quot;lightbox-caption-text&quot;&gt;Wie die Nervenzelle verarbeitet auch ein künstliches Neuron Signale und gibt einen Output weiter&lt;br&gt;© WFB/Raveling&lt;/p&gt;" href="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/Zelle_KI.png.57705.png" data-toggle="lightbox" style="margin: 0">
+            <figcaption class="image-caption">
+                <span class="caption">
+                    Wie die Nervenzelle verarbeitet auch ein künstliches Neuron Signale und gibt einen Output weiter
+                </span>
+                <span class="copyright">
+                    © WFB/Raveling
+                </span>
+            </figcaption>
+            <br>
+        </div>
+                
+                
+            </div>
+            
+            
+        </div>
+        </div><div id="wfb-66872" class="content" data-containertype="base-content">
+            <div class="content-base-title">
+                
+            </div>
+            <div class="row">
+            
+            
+            <div class="col-lg-12">
+                
+                <p>Ein künstliches neuronales Netz funktioniert ähnlich:
+ Hier ist ein Neuron eine mathematische Formel, die einen Input 
+verarbeitet und daraus einen Output generiert. Die Werte der Formel 
+werden dabei durch die Ausgangsdaten definiert. Viele künstliche 
+Neuronen arbeiten zusammen und ergeben so ein künstliches neuronales 
+Netz (KNN).</p>
+<h3>Beispiel für ein neuronales Netz</h3>
+<p>Nehmen wir als Beispiel ein neuronales Netz, das Bilder von Äpfel von
+ Bildern von Birnen unterscheiden soll. Damit neuronale Netze 
+funktionieren, benötigen sie Daten, deren Ergebnis sie kennen, um aus 
+diesen zu lernen. Dieser Prozess wird „Training“ genannt – das Netz 
+führt eine Berechnung aus und schaut, ob diese zum erwarteten Ergebnis 
+passt. In unserem Beispiel braucht unser Netzwerk also Bilder von Äpfeln
+ und Birnen, die mit einer Beschriftung versehen sind, was von beiden 
+sie sind. Was das neuronale Netz macht ist jetzt folgendes: Es nimmt ein
+ Bild, löst die einzelnen Pixel in Daten auf (zum Beispiel einen 
+Farbwert) und berechnet dann mit diesen Daten in einer komplexen Formel 
+ein Ergebnis, das sie danach mit der Beschriftung vergleicht.</p>
+<p>Stimmen Ergebnis der Formel und Beschriftung überein, hat das Netzwerk ein Bild richtig erkannt.</p>
+<p>Stimmen Ergebnis der Formel und Ergebnis nicht überein, stimmt die Berechnung noch nicht und es muss noch weitertrainieren.</p>
+<p>Wie ist ein neuronales Netz nun aufgebaut? Es gibt sehr 
+unterschiedliche Formen neuronaler Netze aber grundsätzlich besteht es 
+aus mehreren Ebenen: Einer Input-Ebene, die ein Signal aufnimmt, 
+verschiedene Zwischenebenen, welche Berechnungen vornehmen und eine 
+Output-Ebene, welches das Ergebnis der Berechnung bereitstellt. In 
+unserem Beispiel haben wir ein neuronales Netz aufgebaut mit einer 
+Inputebene, einer Zwischenebene und einer Outputebene (siehe Bild oben, 
+rechts).</p>
+                
+                <div data-owner="© WFB/Raveling" data-description="Als erstes übersetzt das neuronale Netzwerk das Bild Pixel für Pixel in Werte, die durch die Neuronen berechnet werden können" style="margin: 20px 0">
+            <img alt="Als erstes übersetzt das neuronale Netzwerk das Bild Pixel für Pixel in Werte, die durch die Neuronen berechnet werden können" title="Als erstes übersetzt das neuronale Netzwerk das Bild Pixel für Pixel in Werte, die durch die Neuronen berechnet werden können" class="content-single-image" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/bertragung.png" data-title="Als erstes übersetzt das neuronale Netzwerk das Bild Pixel für Pixel in Werte, die durch die Neuronen berechnet werden können&lt;br&gt;&lt;p class=&quot;lightbox-caption-text&quot;&gt;Als erstes übersetzt das neuronale Netzwerk das Bild Pixel für Pixel in Werte, die durch die Neuronen berechnet werden können&lt;br&gt;© WFB/Raveling&lt;/p&gt;" href="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/%C3%9Cbertragung.png.57710.png" data-toggle="lightbox" style="margin: 0">
+            <figcaption class="image-caption">
+                <span class="caption">
+                    Als erstes übersetzt das neuronale Netzwerk das Bild
+ Pixel für Pixel in Werte, die durch die Neuronen berechnet werden 
+können
+                </span>
+                <span class="copyright">
+                    © WFB/Raveling
+                </span>
+            </figcaption>
+            <br>
+        </div>
+                
+                
+            </div>
+            
+            
+        </div>
+        </div><div id="wfb-66874" class="content" data-containertype="base-content">
+            <div class="content-base-title">
+                
+            </div>
+            <div class="row">
+            
+            
+            <div class="col-lg-12">
+                
+                <p>Das Neuron der ersten Ebene nimmt nun den Input (den 
+Farbwert des Pixels) und verarbeitet diese Information (berechnet eine 
+Formel) und gibt danach das Ergebnis an die nächste Ebene mit Neuronen 
+weiter.</p>
+<p>Die letzte Ebene mit Neuronen entspricht dann den beiden möglichen 
+Outputs – Apfel oder Birne. Je nachdem, bei welchem der beiden 
+Output-Neuronen das Ergebnis der Berechnung höher ist (in diesem Fall: 
+näher am Wert 1 liegt), gibt das Netzwerk das Ergebnis als "Apfel" oder 
+"Birne" heraus.</p>
+                
+                <div data-owner="© WFB/Raveling" data-description="Die zufällig gewählten Parameter der einzelnen Neuronen ergeben zunächst eine zufällig und damit falsche Antwort" style="margin: 20px 0">
+            <img alt="Die zufällig gewählten Parameter der einzelnen Neuronen ergeben zunächst eine zufällig und damit falsche Antwort" title="Die zufällig gewählten Parameter der einzelnen Neuronen ergeben zunächst eine zufällig und damit falsche Antwort" class="content-single-image" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/falscheantwort.png" data-title="Die zufällig gewählten Parameter der einzelnen Neuronen ergeben zunächst eine zufällig und damit falsche Antwort&lt;br&gt;&lt;p class=&quot;lightbox-caption-text&quot;&gt;Die zufällig gewählten Parameter der einzelnen Neuronen ergeben zunächst eine zufällig und damit falsche Antwort&lt;br&gt;© WFB/Raveling&lt;/p&gt;" href="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/falscheantwort.png.57715.png" data-toggle="lightbox" style="margin: 0">
+            <figcaption class="image-caption">
+                <span class="caption">
+                    Die zufällig gewählten Parameter der einzelnen 
+Neuronen ergeben zunächst eine zufällig und damit falsche Antwort
+                </span>
+                <span class="copyright">
+                    © WFB/Raveling
+                </span>
+            </figcaption>
+            <br>
+        </div>
+                
+                
+            </div>
+            
+            
+        </div>
+        </div><div id="wfb-66875" class="content" data-containertype="base-content">
+            <div class="content-base-title">
+                
+            </div>
+            <div class="row">
+            
+            
+            <div class="col-lg-12">
+                
+                <p>In unserem Beispiel (siehe oben) ist das Ergebnis 
+dieser Berechnung aber falsch - der Wert bei "Birne" ist höher als bei 
+"Apfel", obwohl das Bild einen Apfel zeigt. Das ist aber okay so, denn 
+wenn ein neuronales Netz zum ersten Mal mit Daten gefüttert wird, sind 
+seine Ergebnisse immer zufällig und können daher auch zufällig falsch 
+sein. Das liegt daran, dass die Parameter der mathematischen Formeln 
+beim ersten Trainingsdurchgang zufällig gewählt werden müssen, denn 
+Programmierer kennen die genaue Formel ja nicht, mit der es möglich ist,
+ Äpfel und Birnen voneinander zu unterscheiden (sonst bräuchten sie ja 
+keine KI).</p>
+<p>Jetzt kommt aber der wichtige Schritt: Die zufälligen Werte der 
+einzelnen Neuronen werden nun ausgehend vom Ergebnis so angepasst, dass 
+sie das richtige Ergebnis berechnen. Das macht das Netz automatisch 
+durch eine weitere komplexe Formel. Es ist ein bisschen so wie im 
+Matheunterricht: <i>2+X=4.</i> "<i>2"</i> ist der Input, <i>"4"</i> der Output - welchen Wert muss also <i>"X"</i> haben, damit das korrekte Ergebnis herauskommt?</p>
+<p>Ein neuronales Netz löst diese Berechnung nicht durch Wissen, sondern
+ durch Ausprobieren – es optimiert die einzelnen Werte in den Neuronen 
+solange, bis das tatsächliche Ergebnis dem gewünschten Ergebnis 
+entspricht. Dabei werden üblicherweise tausende von Parametern 
+gleichzeitig angepasst, in vielen sehr kleinen Schritten.</p>
+<p></p>
+                
+                <div data-owner="© WFB/Raveling" data-description="Durch Abgleich des Ergebnis mit dem Zielwert kann das KNN seine Neuronen allmählich trainieren, die richtige Antwort zu geben" style="margin: 20px 0">
+            <img alt="Durch Abgleich des Ergebnis mit dem Zielwert kann das KNN seine Neuronen allmählich trainieren, die richtige Antwort zu geben" title="Durch Abgleich des Ergebnis mit dem Zielwert kann das KNN seine Neuronen allmählich trainieren, die richtige Antwort zu geben" class="content-single-image" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/richtigerschluss.png" data-title="Durch Abgleich des Ergebnis mit dem Zielwert kann das KNN seine Neuronen allmählich trainieren, die richtige Antwort zu geben&lt;br&gt;&lt;p class=&quot;lightbox-caption-text&quot;&gt;Durch Abgleich des Ergebnis mit dem Zielwert kann das KNN seine Neuronen allmählich trainieren, die richtige Antwort zu geben&lt;br&gt;© WFB/Raveling&lt;/p&gt;" href="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/richtigerschluss.png.57720.png" data-toggle="lightbox" style="margin: 0">
+            <figcaption class="image-caption">
+                <span class="caption">
+                    Durch Abgleich des Ergebnis mit dem Zielwert kann 
+das KNN seine Neuronen allmählich trainieren, die richtige Antwort zu 
+geben
+                </span>
+                <span class="copyright">
+                    © WFB/Raveling
+                </span>
+            </figcaption>
+            <br>
+        </div>
+                
+                
+            </div>
+            
+            
+        </div>
+        </div><div id="wfb-66884" class="content" data-containertype="base-content">
+            <div class="content-base-title">
+                
+            </div>
+            <div class="row">
+            
+            
+            <div class="col-lg-12">
+                
+                <p>Diese Schritte werden nun wiederholt – viele tausende
+ bis Millionen Male und nicht nur mit einem Bild, sondern mit vielen 
+verschiedenen Bildern von Äpfeln und Birnen. Jedes Mal verändern sich 
+die Neuronenwerte dabei ein wenig. Sie werden ein klein wenig besser 
+darin, Äpfel und Birnen zu unterscheiden, da die Anzahl der Beispiele, 
+die sie richtig zugeordnet haben, stetig wächst. Dieser Prozess heißt 
+„Lernen“ und ist ungeheuer rechenaufwändig.</p>
+<p>Am Ende dieses Prozesses sind die Neuronen dann aber so fit, dass sie
+ Bilder von Äpfeln von denen von Birnen unterscheiden können. Und hier 
+kommt nun die „Magie“ ins Spiel: Das neuronale Netz kann nicht nur die 
+Bilder unterscheiden, die es bereits kennt und gelernt hat, richtig 
+einzuordnen. Es kann dies auch bei Bildern, die es noch nie gesehen hat.
+ Das Netz hat von den Trainingsbildern ein allgemeines Muster 
+abstrahiert, das es nun auf neue Bilder anwenden kann.</p>
+<p>Die Unterscheidungsmerkmale von Äpfeln und Birnen hat das KNN sich 
+selbst im Laufe des Trainings beigebracht und sie entsprechen nicht 
+menschlichen Maßstäben. Wir würden diese Objekte unterscheiden nach 
+Merkmalen wie etwa <i>„ist rund und rot“ -&gt; Apfel</i>, <i>„ist länglich und grün“ -&gt; Birne</i>.
+ Ein Computer kann aber mit Begriffen wie „rot“ oder „länglich“ nichts 
+anfangen. Er findet eigene Unterscheidungsmerkmale, die vielleicht 
+heißen könnten „hat Durchschnittlich einen Rotwert von X Prozent“ oder 
+die sehr viel abstrakter sind. Sie stehen aber nirgendwo zum Nachlesen, 
+sie sind implizit in der Gesamtformel enthalten, die alle Neuronen 
+ausmachen.</p>
+<p>Die Entscheidungswege der KI, also der Grund, warum sich die KI für 
+„Apfel“ entscheidet, sind nicht direkt für uns nachvollziehbar, weshalb 
+man manchmal auch von der „Black Box“ spricht, da für die menschliche 
+Intuition nicht offensichtlich ist, wie ein KNN zu seiner Einschätzung 
+gekommen ist (denn ein Computer denkt nicht in „länglich“ oder „grün“).</p>
+<p>Jedoch lässt sich der Entscheidungsweg zu jedem einzelnen Bild im 
+Nachhinein genau nachvollziehen, wenngleich sie auch durch eine sehr 
+komplizierte mathematische Formel dargestellt wird, die durch Tausende 
+oder Millionen von Parametern bestimmt wird.</p>
+<p>Jedes Neuronale Netz ist nur so gut wie seine Trainingsdaten. Deshalb
+ ist es wichtig, gut sortierte und einheitlich strukturierte Daten zu 
+verwenden, wenn ein KNN trainiert werden soll. Und hier wird klar, warum
+ Unternehmen wie Facebook oder Google so viele Daten sammeln: Je mehr 
+Daten sie haben, desto besser können sie künstliche Netze auf diese 
+loslassen, diese trainieren und auswerten. Und genau deshalb ist es 
+wichtig für Unternehmen, viele Daten zu sammeln.</p>
+<h3>Limitationen von neuronalen Netzen</h3>
+                
+                <div data-owner="© WFB/Raveling" data-description="Wird das Netzwerk mit Daten gefüttert, die nicht zu der Art der Trainingsdaten passen, ist es überfordert" style="margin: 20px 0">
+            <img alt="Wird das Netzwerk mit Daten gefüttert, die nicht zu der Art der Trainingsdaten passen, ist es überfordert" title="Wird das Netzwerk mit Daten gefüttert, die nicht zu der Art der Trainingsdaten passen, ist es überfordert" class="content-single-image" src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/falscherschluss.png" data-title="Wird das Netzwerk mit Daten gefüttert, die nicht zu der Art der Trainingsdaten passen, ist es überfordert&lt;br&gt;&lt;p class=&quot;lightbox-caption-text&quot;&gt;Wird das Netzwerk mit Daten gefüttert, die nicht zu der Art der Trainingsdaten passen, ist es überfordert&lt;br&gt;© WFB/Raveling&lt;/p&gt;" href="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/falscherschluss.png.57725.png" data-toggle="lightbox" style="margin: 0">
+            <figcaption class="image-caption">
+                <span class="caption">
+                    Wird das Netzwerk mit Daten gefüttert, die nicht zu der Art der Trainingsdaten passen, ist es überfordert
+                </span>
+                <span class="copyright">
+                    © WFB/Raveling
+                </span>
+            </figcaption>
+            <br>
+        </div>
+                
+                
+            </div>
+            
+            
+        </div>
+        </div><div id="wfb-66885" class="content" data-containertype="base-content">
+            <div class="content-base-title">
+                
+            </div>
+            <div class="row">
+            
+            
+            <div class="col-lg-12">
+                
+                <p>Unser Äpfel-und-Birnen-Beispiel zeigt aber zugleich 
+eine Limitierung von KNNs auf: Werden sie plötzlich mit Bildern von 
+Feuerwehrautos konfrontiert, können sie damit nichts anfangen – oder 
+ordnen sie fälschlich als Äpfel ein. Um mit neuen, andersartigen 
+Informationen umgehen zu können, müsste ein KNN wiederum erneut 
+trainiert werden. Es muss also einen Datensatz geben, der Antworten auf 
+ein eng umfasstes Fragengebiet geben kann, damit ein neuronales Netz 
+optimal arbeitet.</p>
+<h3>Ein Garten an neuronalen Netzen</h3>
+<p>Neuronale Netze gibt es in vielen unterschiedlichen Formen und Funktionsweisen, <a href="https://jaai.de/kuenstliche-neuronale-netze-aufbau-funktion-291/" target="_blank" rel="noopener noreferrer">das oben dargestellte ist nur ein Prinzip unter vielen.</a>
+ Bekanntheit erlangten in letzter Zeit die Deep Neuronal Networks, in 
+denen mehrere Ebenen von Neuronen hintereinandergeschaltet werden, um 
+genauer zu arbeiten, ähnlich unseres Beispiels. Andere Netze wie 
+Convolutional Neural Networks werden zur Bilderkennung eingesetzt und 
+können dort bereits treffsicherer Bilder erkennen als Menschen. Genetic 
+Neural Networks nehmen sich die Natur der Evolution zum Vorbild, in ihr 
+treten zahlreiche KNN in einem Wettbewerb gegeneinander an, anstatt das 
+eines immer weiter mit Daten feinjustiert wird; die besten kommen 
+weiter, die schlechtesten werden verworfen.</p>
+<h3>Neuronale Netze in 2020</h3>
+<p>In der letzten Zeit haben KNN für Aufmerksamkeit gesorgt, die im 
+Bereich des Natural Language Processing – also der Verarbeitung von 
+natürlicher Sprache – arbeiten. Diese Modelle, so genannte Transformer, 
+arbeiten mit Milliarden von Parametern und brauchen Monate, um trainiert
+ zu werden. Man kann sie auch selbst spielerisch ausprobieren: <a href="https://transformer.huggingface.co/" target="_blank" rel="noopener noreferrer">https://transformer.huggingface.co</a>
+ In Zukunft werden sie immer besser darin, Sätze und Dialoge zu 
+verstehen und selbst zusammenhänge Abschnitte zu verfassen. Im Bereich 
+der Spiele haben KNN in den letzten Jahren für viel Aufmerksamkeit 
+gesorgt. Bekannt dürfte vielen der Sieg der Google-KI AlphaGo im Spiel 
+„Go“ im Jahr 2016 sein (<a href="https://www.youtube.com/watch?v=WXuK6gekU1Y" target="_blank" rel="noopener noreferrer">Dokumentation auf Youtube</a>).
+ Seitdem haben sich neuronale Netze stark verbessert und können in immer
+ komplexeren Spielen (Videospielen) Siege gegen Menschen erzielen. Ein 
+weiteres wichtiges Forschungsgebiet im Bereich der KNN sind autonome 
+Fahrzeuge, deren Entwicklung in vollem Gange sind.</p>
+<h3>Neuronale Netze besser verstehen</h3>
+<p>Die genaue Funktionsweise von Künstlicher Intelligenz zu verstehen 
+ist nicht einfach. Viele verschiedene Seiten und Projekte nehmen sich 
+dieser Aufgabe an. Wir haben hier ein paar gesammelt, die all jenen 
+weiterhelfen, die tiefer in die Materie eindringen wollen. Die meisten 
+davon sind auf Englisch, aber nicht alles.</p>
+<ol>
+<li><b> CGP Grey:</b> Der Youtuber CGP Grey hat in einem kurzen Video 
+die Funktion von Genetic Neural Networks verständlich und anschaulich 
+animiert zusammengefasst: <a href="https://www.youtube.com/watch?v=R9OHn5ZF4Uo" target="_blank" rel="noopener noreferrer">How Machines Learn</a></li>
+<li><b>Doktor Whatson:</b> Auf Deutsch erklärt <a href="https://www.youtube.com/watch?v=ya_6I9IVMzY" target="_blank" rel="noopener noreferrer">Doktor Whatson auf Youtube in 8 Minuten</a>, wie ein neuronales Netz funktioniert, wie es lernt und was man damit macht</li>
+<li><b>3Blue1Brown:</b> Dieser Youtuber erklärt in drei Teilen, wie ein 
+Deep Neural Network funktioniert. Die Erklärung ist deutlich komplexer 
+und verwendet ein wenig Mathematik, die jedoch sehr hilfreich ist, um zu
+ verstehen, wie ein Bild in eine mathematische Funktion übersetzt werden
+ kann, wie also die KI „denkt“: <a href="https://www.youtube.com/watch?v=aircAruvnKk&amp;t=2s%20" target="_blank" rel="noopener noreferrer">What is a neural network? </a></li>
+<li><b>Sebastian Lague: </b>Alle Links angesehen? Dann kommt <a href="https://www.youtube.com/watch?v=bVQUSndDllU" target="_Blank">hier von Sebastian Lague eine Zusammenfassung</a>,
+ welche anhand einer Aninmation sehr gut erklärt, wie aus Formeln 
+künstliche Intelligenz erwächst. Aber Achtung - dieses Video sollte nur 
+ansehen, wer zumindest die Grundbegriffe der KI-Mathematik 
+nachvollziehen kann.</li>
+<li><b>Neural Network ausprobieren:</b> Auf <a href="http://playground.tensorflow.org/" target="_blank" rel="noopener noreferrer">http://playground.tensorflow.org/</a>
+ kann jeder einmal selbst mit einem neuronalen Netz im Browser 
+herumspielen. Vor dem Start sollte man jedoch die Anleitung anschauen, 
+denn sonst ist es schwer, die Bedeutung der verschiedenen Parameter zu 
+verstehen.</li>
+<li><b>Neural Network ausprobieren II:</b> Mittels eigener Fotos eine KI trainieren geht mit der Google Anwendung <a href="https://teachablemachine.withgoogle.com/" target="_blank" rel="noopener noreferrer">„Teachable Machine“.</a> Einfach drei verschiedene Fotos aufnehmen und schon lernt die KI, diese zu unterscheiden und verschiedenen Outputs zuzuordnen.</li>
+<li><b>Neural Network ausprobieren III: </b><a href="https://transformer.huggingface.co/" target="_blank" rel="noopener noreferrer">https://transformer.huggingface.co</a>
+ erlaubt es, mit verschiedenen Modellen zu spielen (sogenannte 
+Transformer), welche sich mit der Verarbeitung von natürlicher Sprache 
+befassen. Texteingaben sollten auf Englisch erfolgen.</li>
+<li><b>Deep Learning 2020:</b> Der Wissenschaftler Lex Fridman gibt 
+jedes Jahr eine Vorlesung über den aktuellen Stand im Bereich Deep 
+Learning, hier ist sein 2020-Ausblick: <a href="https://www.youtube.com/watch?v=0VH1Lim8gL8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=0VH1Lim8gL8</a></li>
+</ol>
+<p>Und, jetzt neugierig auf KIs geworden? Das <a href="https://bremen.ai/" target="_blank" rel="noopener noreferrer">Netzwerk Bremen.AI</a> hilft bei allen Fragen rund um die KI weiter und gibt erste Einblicke in die Technologie.</p>
+<p></p>
+                
+                
+                
+                
+            </div>
+            
+            
+        </div>
+        </div>
+                </div>
+                <div class="col-lg-4 sidebar">
+            
+            
+            
+            
+            
+            <div class="sidebar-element language-sidebar prevent-toggle" data-state="none">
+            <div class="sidebar-element-header">
+                <div class="sidebar-element-header-title">
+                    Choose Language
+                </div>
+                <button class="sidebar-element-toggle" aria-expanded="true" aria-label="Choose Language">
+                    <i class="sidebar-element-toggle-state expand fa fa-chevron-down"></i>
+                    <i class="sidebar-element-toggle-state collaps fa fa-chevron-up"></i>
+                </button>
+            </div>
+            <div class="sidebar-element-content">
+                <div class="sidebar-item-container">
+            <a class="language-sidebar-item lang en" href="https://www.wfb-bremen.de/en/page/bremen-invest/what-is-a-neural-network"></a>
+        </div>
+            </div>
+        </div>
+            <div class="sidebar-element contact-sidebar" data-state="none">
+            <div class="sidebar-element-header">
+                <div class="sidebar-element-header-title">
+                    Kontakt
+                </div>
+                <button class="sidebar-element-toggle" aria-expanded="true" aria-label="Kontakt">
+                    <i class="sidebar-element-toggle-state expand fa fa-chevron-down"></i>
+                    <i class="sidebar-element-toggle-state collaps fa fa-chevron-up"></i>
+                </button>
+            </div>
+            <div class="sidebar-element-content">
+                <div class="contact-item">
+            <div class="contact-image"><img src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/Icon%2520Ansprechpartnerin%2520auf%2520wei.jpg" alt="Foto "></div>
+            <div class="contact-content ">
+                <p class="contact-name">
+                    Inis
+                    Ehrlich
+                </p>
+                <p class="contact-department">
+            Die Senatorin für Wirtschaft, Arbeit und Europa
+        </p>
+                <p class="contact-level">
+            Referentin für Digitalisierung und KI
+        </p>
+                <p class="contact-address">
+            Zweite Schlachtpforte 3
+        <br>28195 Bremen
+        <br>
+        </p>
+                <p class="contact-phone">
+            <strong>
+                T
+            </strong>
+            +49 (0)421 361 41 85
+        </p>
+                
+                <p class="contact-mail">
+                    <a href="mailto:inis.ehrlich@wah.bremen.de">inis.ehrlich@wah.bremen.de</a>
+                </p>
+                
+            </div>
+        </div>
+            </div>
+        </div>
+            
+            
+            
+        </div>
+            </div>
+            
+            
+            <div class="shariff">
+            <ul class="theme-standard orientation-horizontal col-4">
+                <li class="shariff-button facebook">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.wfb-bremen.de%2Fde%2Fpage%2Fstories%2Fdigitalisierung-industrie40%2Fwas-ist-ein-neuronales-netz" data-rel="popup" title="Bei Facebook teilen" role="button" aria-label="Bei Facebook teilen">
+                        <span class="fab fa-facebook-f"></span>
+                        <span class="share_text">teilen</span>
+                    </a>
+                </li>
+                <li class="shariff-button twitter">
+                    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.wfb-bremen.de%2Fde%2Fpage%2Fstories%2Fdigitalisierung-industrie40%2Fwas-ist-ein-neuronales-netz" data-rel="popup" title="Bei Twitter teilen" role="button" aria-label="Bei Twitter teilen">
+                        <span class="fab fa-twitter"></span>
+                        <span class="share_text">tweet</span>
+                    </a>
+                </li>
+                <li class="shariff-button xing">
+                    <a href="https://www.xing.com/social_plugins/share?url=https%3A%2F%2Fwww.wfb-bremen.de%2Fde%2Fpage%2Fstories%2Fdigitalisierung-industrie40%2Fwas-ist-ein-neuronales-netz" data-rel="popup" title="Bei XING teilen" role="button" aria-label="Bei XING teilen">
+                        <span class="fab fa-xing"></span>
+                        <span class="share_text">teilen</span>
+                    </a>
+                </li>
+                <li class="shariff-button linkedin">
+                    <a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.wfb-bremen.de%2Fde%2Fpage%2Fstories%2Fdigitalisierung-industrie40%2Fwas-ist-ein-neuronales-netz" data-rel="popup" title="Bei LinkedIn teilen" role="button" aria-label="Bei LinkedIn teilen">
+                        <span class="fab fa-linkedin-in"></span>
+                        <span class="share_text">mitteilen</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+            <div id="cmc-list" class="list cmc-list">
+			<div class="list-options">
+				
+			</div>
+			<div class="list-items row equal-height">
+				<div class="list-item col-lg-4 cmc-list-item ">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2021/06/portraet-professor-michael-beetz-ki-bremen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/KI_Broschure_2020_04_Prof_Michael_Beetz_09JUN20-0005.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/KI_Broschure_2020_04_Prof_Michael_Beetz_09JUN20-0005.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Wissenschaft
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						09.06.2021
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2021/06/portraet-professor-michael-beetz-ki-bremen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Tischlein deck dich: Mit künstlicher Intelligenz wird’s möglich
+					</a>
+					<p>
+						Wie fest darf man ein Ei drücken? Wie wendet man einen 
+Pfannkuchen? Menschen lernen es durch Erfahrung. Aber wie bringt man das
+ einem Roboter bei? Das hat sich Professor Michael Beetz zur Aufgabe 
+gemacht. Seine Vision sind Roboter, die komplexe Alltagsaufgaben 
+erfolgreich erledigen.
+
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2021/06/portraet-professor-michael-beetz-ki-bremen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu Bremen-Innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item ">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2021/05/bundesverband-ki-regionalgruppe-bremen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/Foto_VJ_ST.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/Foto_VJ_ST.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						19.05.2021
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2021/05/bundesverband-ki-regionalgruppe-bremen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						„Bremen ist ein Vorzeigebundesland in der KI – wir sehen sehr viele positive Aktivitäten“
+					</a>
+					<p>
+						Will Europa die KI zu stark regulieren? Und warum ist Bremen 
+bundesweit ein Vorbild? Ein Gespräch mit Dr. Vanessa Just und Jascha 
+Stein vom Bundesverband KI, Regionalgruppe Bremen.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2021/05/bundesverband-ki-regionalgruppe-bremen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu Bremen-Innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item ">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/nahrung-und-genuss/loopsai-ki-kreislaufwirtschaft" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/20210419-loopsai-107.jpg.69448.jpg" title="Carolin Johannsen und Thorsten Kluß wollen Ressourcen miteinander vernetzen." aria-label="Carolin Johannsen und Thorsten Kluß wollen Ressourcen miteinander vernetzen." role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/20210419-loopsai-107.jpg.69448.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Nahrungs- und Genussmittelwirtschaft
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						18.05.2021
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/nahrung-und-genuss/loopsai-ki-kreislaufwirtschaft" target="_self">
+						Gegen die Verschwendung
+					</a>
+					<p>
+						Jeden Tag landen riesige Mengen Lebensmittelreste im Abfall. Dabei
+ ließe sich vieles davon noch anders nutzen. Ein Team der Uni Bremen 
+arbeitet an einer intelligenten Software, die dafür sorgen soll, 
+Stoffströme zu vernetzen und so eine nachhaltige Kreislaufwirtschaft in 
+Gang zu setzen.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/nahrung-und-genuss/loopsai-ki-kreislaufwirtschaft" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://ecomat-bremen.de/ein-raketenstart-in-die-eigene-forschungskarriere/" target="_blank" title="Sie wechseln zum Internetangebot von ecomat-bremen.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/CM_Impact-1-20-IWT-Foto-Lehmkuehler-27.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/CM_Impact-1-20-IWT-Foto-Lehmkuehler-27.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						ECOMAT
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						22.04.2021
+					</div>
+					<a class="list-item-title" href="https://ecomat-bremen.de/ein-raketenstart-in-die-eigene-forschungskarriere/" target="_blank" title="Sie wechseln zum Internetangebot von ecomat-bremen.de">
+						Ein Raketenstart in die eigene Forschungskarriere 
+					</a>
+					<p>
+						Marcel Hesselmann ist Jungwissenschaftler – und erforscht, wie 
+Raketen dank neuer Werkstoffe künftig günstiger ins All starten können. 
+Als Teil des Gemeinschaftsprojekts @ALL nutzt er dabei auch das ECOMAT, 
+um in Bremen seine berufliche Laufbahn zu starten.
+					</p>
+					<a class="list-item-link" href="https://ecomat-bremen.de/ein-raketenstart-in-die-eigene-forschungskarriere/" target="_blank" title="Sie wechseln zum Internetangebot von ecomat-bremen.de">
+						zum ECOMAT
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/wie-studierende-digitale-strategien-fuer-den-bremer-einzelhandel-entwickeln" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/social-4517006_1100.jpg.68946.jpg" title="Netzwerk aus Social Media Icons" aria-label="Netzwerk aus Social Media Icons" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/social-4517006_1100.jpg.68946.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						19.04.2021
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/wie-studierende-digitale-strategien-fuer-den-bremer-einzelhandel-entwickeln" target="_self">
+						Wie Studierende digitale Strategien für den Bremer Einzelhandel entwickeln
+					</a>
+					<p>
+						Besonders kleine Unternehmen beschäftigen sich seit Beginn der 
+Pandemie verstärkt mit Fragen rund um die digitale Präsenz. Wie 
+Onlinemarketing auch mit begrenzten Mitteln funktionieren kann, zeigen 
+Bremer Studierende beim Projekt „Digital Retail Consulting for Bremen“.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/wie-studierende-digitale-strategien-fuer-den-bremer-einzelhandel-entwickeln" target="_self">
+						Zum Projekt
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://digitallotsen-bremen.de/beliebte-baukasten-shopsysteme-im-vergleich/" target="_blank" title="Sie wechseln zum Internetangebot von digitallotsen-bremen.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/Online_Shopsysteme.jpg.68691.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/Online_Shopsysteme.jpg.68691.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						30.03.2021
+					</div>
+					<a class="list-item-title" href="https://digitallotsen-bremen.de/beliebte-baukasten-shopsysteme-im-vergleich/" target="_blank" title="Sie wechseln zum Internetangebot von digitallotsen-bremen.de">
+						5 Baukasten-Shopsysteme im Vergleich – Einen Onlineshop erstellen ohne Programmierkenntnisse
+					</a>
+					<p>
+						Baukasten-Shopsysteme helfen bei der Erstellung eigener Webshops 
+und erleichtern besonders kleine Unternehmen den Schritt ins 
+Online-Business. Unser Digital-Lotsen-Team zeigt, worauf es ankommt!
+					</p>
+					<a class="list-item-link" href="https://digitallotsen-bremen.de/beliebte-baukasten-shopsysteme-im-vergleich/" target="_blank" title="Sie wechseln zum Internetangebot von digitallotsen-bremen.de">
+						Zum Vergleich
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2021/03/digitalisierung-und-pandemie-wie-diese-3-unternehmen-durch-die-krise-kommen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/BLG-Logistik_Ginter-lpr.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/BLG-Logistik_Ginter-lpr.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						24.03.2021
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2021/03/digitalisierung-und-pandemie-wie-diese-3-unternehmen-durch-die-krise-kommen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Digitalisierung und Pandemie: Wie diese 3 Unternehmen durch die Krise kommen
+					</a>
+					<p>
+						Ein Jahr Pandemie – mit Homeoffice, Hygienekonzepten und 
+Selbsttests. Drei Unternehmen berichten über ihren Umgang mit der Krise.
+ Und wie aus „neu“ „normal“ wurde.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2021/03/digitalisierung-und-pandemie-wie-diese-3-unternehmen-durch-die-krise-kommen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu Bremen-Innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://digitallotsen-bremen.de/2021/03/04/date_collect_kurzportrait/" target="_blank" title="Sie wechseln zum Internetangebot von digitallotsen-bremen.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/pexels-photo-5053742-2-1013x675.jpeg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/pexels-photo-5053742-2-1013x675.jpeg&quot;);"></div>
+					<div class="list-item-header-label">
+						Einzelhandel
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						09.03.2021
+					</div>
+					<a class="list-item-title" href="https://digitallotsen-bremen.de/2021/03/04/date_collect_kurzportrait/" target="_blank" title="Sie wechseln zum Internetangebot von digitallotsen-bremen.de">
+						Date &amp; Collect – Wie Buchungssysteme Händler:innen unterstützen können
+					</a>
+					<p>
+						Der Einzelhandel darf wieder Kunden empfangen - mittels 
+Terminvereinbarung im Vorfeld. Wie das auch digital geht, das haben sich
+ die Bremer Digital-Lotsen in dieser Übersicht einmal angesehen.
+					</p>
+					<a class="list-item-link" href="https://digitallotsen-bremen.de/2021/03/04/date_collect_kurzportrait/" target="_blank" title="Sie wechseln zum Internetangebot von digitallotsen-bremen.de">
+						zu den Digitallotsen
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/zum-international-womens-day-wie-diese-neun-frauen-vielfalt-in-die-bremer-wirtschaft-bringen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/abat_Gyde_Wortmann_02r.jpg.65165.jpg" title="Gyde Wortmann hört zu, respektiert und schenkt Vertrauen – das ist ihr Erfolgsrezept." aria-label="Gyde Wortmann hört zu, respektiert und schenkt Vertrauen – das ist ihr Erfolgsrezept." role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/abat_Gyde_Wortmann_02r.jpg.65165.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Erfolgsgeschichten
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						08.03.2021
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/zum-international-womens-day-wie-diese-neun-frauen-vielfalt-in-die-bremer-wirtschaft-bringen" target="_self">
+						Zum #InternationalWomensDay: Wie diese 9 Frauen Vielfalt in die Bremer Wirtschaft bringen
+					</a>
+					<p>
+						Informatikerin, Glasbläserin, Standortleiterin, Gründerin: Bremer 
+Frauen zeigen, wie unterschiedlich Karrierewege aussehen, und warum 
+Frauen in jedem Beruf erfolgreich sein können. 
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/zum-international-womens-day-wie-diese-neun-frauen-vielfalt-in-die-bremer-wirtschaft-bringen" target="_self">
+						mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2021/02/wenn-die-ki-beim-lernen-ueber-die-schulter-schaut/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/Computer_Steuer80.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/Computer_Steuer80.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						17.02.2021
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2021/02/wenn-die-ki-beim-lernen-ueber-die-schulter-schaut/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Wenn die KI beim Lernen über die Schulter schaut
+					</a>
+					<p>
+						Digital arbeiten und digitalisiert arbeiten sind zwei Paar Schuhe.
+ Steuerberater:innen merken das gerade besonders. Ihr Berufsbild wandelt
+ sich durch neue Technologien stark. Ein Bremer Millionenprojekt hilft 
+dabei mit künstlicher Intelligenz.
+
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2021/02/wenn-die-ki-beim-lernen-ueber-die-schulter-schaut/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu Bremen-Innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/ki-im-jahr-2030" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/smartphone-51280.jpg.68065.jpg" title="Schon heute unser wichtigster Zugangspunkt zur KI - das Smartphone" aria-label="Schon heute unser wichtigster Zugangspunkt zur KI - das Smartphone" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/smartphone-51280.jpg.68065.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						12.02.2021
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/ki-im-jahr-2030" target="_self">
+						Wie sieht unsere Welt mit künstlicher Intelligenz im Jahr 2030 aus?
+					</a>
+					<p>
+						Intelligente Roboter, selbstfahrende Autos, smarte Chatbots – 
+sieht so unsere Welt im Jahr 2030 aus? Wir haben Bremerinnen und Bremer 
+aus Forschung und Wirtschaft gefragt, wie sie die Zukunft der 
+künstlichen Intelligenz sehen.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/ki-im-jahr-2030" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/internationales/briefe-aus-dem-silicon-valley-winter-2020" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/TIMJStand1.jpg.67485.jpg" title="Tim Ole Jöhnk, Direktor des Norgern Germany Innovation Office in den USA" aria-label="Tim Ole Jöhnk, Direktor des Norgern Germany Innovation Office in den USA" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/TIMJStand1.jpg.67485.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Internationales
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						17.12.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/internationales/briefe-aus-dem-silicon-valley-winter-2020" target="_self">
+						Briefe aus dem Silicon Valley: Winter 2020
+					</a>
+					<p>
+						Homeoffice statt Büro? Onlineboom statt Einzelhandel? Die 
+Coronapandemie beschleunigt viele Trends. Das Silicon Valley gilt häufig
+ als Vorreiter dieser Entwicklung - aber findet auch Wertvolles im 
+Alten. Unser Blick in die Vereinigten Staaten.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/internationales/briefe-aus-dem-silicon-valley-winter-2020" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.youtube.com/watch?v=nf0ofEt4_7Q" target="_blank" title="Sie wechseln zum Internetangebot von www.youtube.com">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/ThinkReactor1.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/ThinkReactor1.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						15.12.2020
+					</div>
+					<a class="list-item-title" href="https://www.youtube.com/watch?v=nf0ofEt4_7Q" target="_blank" title="Sie wechseln zum Internetangebot von www.youtube.com">
+						 THINK REACTOR - der Künstliche-Intelligenz-Podcast aus Bremen
+					</a>
+					<p>
+						Was kann die KI - und auf welchen Gebieten macht sie gerade 
+entscheidende Fortschritte? Der Podcast rund um Künstliche Intelligenz 
+gibt regelmäßig Einblicke in eine faszinierende Welt. Das Podcaster-Duo 
+lädte dabei häufig Gäste aus der Bremer Wirtschafts- und 
+Wissenschaftszene ein. In der aktuellen Folge geht es um Soziale Medien 
+und die KI.
+					</p>
+					<a class="list-item-link" href="https://www.youtube.com/watch?v=nf0ofEt4_7Q" target="_blank" title="Sie wechseln zum Internetangebot von www.youtube.com">
+						zum Podcast
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/12/kuenstliche-intelligenz-in-der-maritimen-wirtschaft/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/BLG_Montage.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/BLG_Montage.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Maritime Wirtschaft und Logistik
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						10.12.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/12/kuenstliche-intelligenz-in-der-maritimen-wirtschaft/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Künstliche Intelligenz in der maritimen Wirtschaft
+					</a>
+					<p>
+						Die künstliche Intelligenz (KI) hält auch in der maritimen 
+Wirtschaft Einzug. Sie ermöglicht autonome Systeme, effizientere 
+Prozesse und einen sichereren Betrieb. Eine Übersicht über den Stand der
+ KI in der Schifffahrt und Hafenwirtschaft mit aktuellen Beispielen.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/12/kuenstliche-intelligenz-in-der-maritimen-wirtschaft/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu bremen-innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/11/wenn-sich-die-mathematik-nasse-fuesse-holt/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/rostock_entry_skaliert_c_ZeTeM.jpg.67073.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/rostock_entry_skaliert_c_ZeTeM.jpg.67073.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Maritime Wirtschaft und Logistik
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						16.11.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/11/wenn-sich-die-mathematik-nasse-fuesse-holt/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Wenn sich die Mathematik nasse Füße holt
+					</a>
+					<p>
+						Damit eines Tages Schiffe selbstständig kreuzen können, bedarf es 
+jeder Menge Hirnschmalz. Bremer Mathematikerinnen und Mathematiker 
+forschen fleißig daran – und holen sich manchmal nasse Füße
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/11/wenn-sich-die-mathematik-nasse-fuesse-holt/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Mit KI in die Häfen
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/tanja-schultz-universitaet-bremen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Schultz_teaser2.png.66975.png" title="Tanja Schultz Porträt Teaser" aria-label="Tanja Schultz Porträt Teaser" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Schultz_teaser2.png.66975.png&quot;);"></div>
+					<div class="list-item-header-label">
+						Erfolgsgeschichten
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						04.11.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/tanja-schultz-universitaet-bremen" target="_self">
+						Echte Begeisterung für künstliche Intelligenz
+					</a>
+					<p>
+						Professorin Dr. Tanja Schultz leitet das Cognitive Systems Lab an 
+der Uni Bremen. Ihr besonderes Interesse gilt der Spracherkennung: Eine 
+seit mehr als 20 Jahren von ihr entwickelte multilinguale Datenbasis 
+wird auch heute noch weltweit zur Entwicklung künstlicher Intelligenz 
+verwendet. 
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/tanja-schultz-universitaet-bremen" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/10/chatbots-idabot/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/Idabot_Rathke_1.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/Idabot_Rathke_1.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Start-ups
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						27.10.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/10/chatbots-idabot/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Chatbots für alle
+					</a>
+					<p>
+						Warum kompliziert, wenn es auch einfach geht? Mit IDA Bot haben 
+Nina und Dirk Wenig eine Technologie entwickelt, mit der jeder einen 
+eigenen Chatbot erstellen kann.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/10/chatbots-idabot/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu bremen-innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/10/autonomes-u-boot-projekt-mum/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/VideoStill1.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/VideoStill1.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Maritime Wirtschaft und Logistik
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						21.10.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/10/autonomes-u-boot-projekt-mum/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Das größte autonome Forschungs-U-Boot der Welt entsteht mit Bremer Hilfe
+					</a>
+					<p>
+						Tage- und wochenlang soll es unter Wasser tauchen und dort 
+Aufgaben für Forschung und Industrie wahrnehmen: das zivile, autonome 
+Unterwasserfahrzeug „MUM“.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/10/autonomes-u-boot-projekt-mum/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu bremen-innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-industrie-40-eine-kurze-erklaerung" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Teaser_Digitalisierung.jpg.62324.jpg" title="Erklärung: was ist Digitalisierung" aria-label="Erklärung: was ist Digitalisierung" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Teaser_Digitalisierung.jpg.62324.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						13.10.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-industrie-40-eine-kurze-erklaerung" target="_self">
+						Was ist Industrie 4.0? Die Definition von Digitalisierung
+					</a>
+					<p>
+						Industrie 4.0 bezeichnet eine der umfassendsten Umwälzungen in 
+unserer Produktionslandschaft – so umfassend, dass ihr der Titel vierte 
+industrielle Revolution verliehen wird. Aber worum geht es dabei 
+eigentlich?
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-industrie-40-eine-kurze-erklaerung" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/unternehmensservice-bremen/fachkraft-arbeitnehmer-ausland-einstellen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/b280.jpg.65818.jpg" title="Beratung: Fachkräfte aus dem Ausland" aria-label="Beratung: Fachkräfte aus dem Ausland" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/b280.jpg.65818.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Unternehmensservice Bremen
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						01.09.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/unternehmensservice-bremen/fachkraft-arbeitnehmer-ausland-einstellen" target="_self">
+						So gelingt die Einstellung ausländischer Fachkräfte aus Drittstaaten 
+					</a>
+					<p>
+						Unternehmen können jetzt Fachkräfte aus dem Nicht-EU-Ausland 
+deutlich schneller einstellen. Dafür sorgt ein neues, beschleunigtes 
+Verfahren. In Bremen zeigt der Willkommensservice, wie die Einstellung 
+gelingt.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/unternehmensservice-bremen/fachkraft-arbeitnehmer-ausland-einstellen" target="_self">
+						in 6 Schritten zur Fachkraft
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/LuRa/ecomat-leichtbau-3ddruck-bionik-bremen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/TeaserRS53080_WH1984-2747-lpr.jpg.65673.jpg" title="Ecomat " aria-label="Ecomat " role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/TeaserRS53080_WH1984-2747-lpr.jpg.65673.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						EcoMaT / Leichtbau
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						25.08.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/LuRa/ecomat-leichtbau-3ddruck-bionik-bremen" target="_self">
+						Das ECOMAT – ein technologischer Meilenstein
+					</a>
+					<p>
+						Mit dem neuen Forschungs- und Technologiezentrum ECOMAT in der 
+Airport-Stadt Bremen hat die Hansestadt ein starkes Signal gesetzt. Es 
+ist seit gut einem Jahr in Betrieb. Grund genug, einmal nachzuschauen, 
+mit welchen Projekten die Unternehmen und wissenschaftlichen 
+Einrichtungen gestartet sind.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/LuRa/ecomat-leichtbau-3ddruck-bionik-bremen" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/onlinehandel-holz-kahrs" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Teaser_Kahrs0.jpg.65544.jpg" title="Michel Kahrs vom Holzhandel Kahrs" aria-label="Michel Kahrs vom Holzhandel Kahrs" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Teaser_Kahrs0.jpg.65544.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						10.08.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/onlinehandel-holz-kahrs" target="_self">
+						Ein Shootingstar im Holzgeschäft
+					</a>
+					<p>
+						Da kommt einer, der alles anders macht: Innerhalb weniger Jahre 
+baut der Bremer Michel Kahrs einen rasant wachsenden Onlinehandel auf 
+und krempelt damit eine ganze Branche um. Von einem, der nur Holz im 
+Kopf hat. Und auf Unterstützung durch die WFB und BAB setzt.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/onlinehandel-holz-kahrs" target="_self">
+						zum Holzprofi
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/geschichte-der-digitalisierung-teil-zwei" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/A-line1913.jpg.49141.jpg" title="Für die zweite industrielle Revolution steht exemplarisch die Fließbandfertigung des Model T von Ford" aria-label="Für die zweite industrielle Revolution steht exemplarisch die Fließbandfertigung des Model T von Ford" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/A-line1913.jpg.49141.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						07.08.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/geschichte-der-digitalisierung-teil-zwei" target="_self">
+						Die Geschichte der Digitalisierung – Teil II
+					</a>
+					<p>
+						Seit wann gibt es die Digitalisierung? Wir werfen einen Blick in 
+die Geschichte des Computers und der Automatisierung, um eine Antwort zu
+ finden. Im zweiten Teil der Reihe geht es um die Herkunft des Begriffes
+ Industrie 4.0 und seine Bedeutung für unsere Frage.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/geschichte-der-digitalisierung-teil-zwei" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://kompetenzzentrum-bremen.digital/foerderprogramme-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/hand-280.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/hand-280.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						06.08.2020
+					</div>
+					<a class="list-item-title" href="https://kompetenzzentrum-bremen.digital/foerderprogramme-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						11 Förderprogramme für die Digitalisierung
+					</a>
+					<p>
+						Die Idee ist da, aber die Finanzierung noch nicht? Dann 
+aufgepasst! 11 Programme, die helfen, Digitalprojekte zu verwirklichen 
+und Unternehmen so fit für die Digitalisierung zu machen.
+					</p>
+					<a class="list-item-link" href="https://kompetenzzentrum-bremen.digital/foerderprogramme-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						zum Kompetenzzentrum Mittelstand
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/internationales/briefe-aus-dem-silicon-valley-sommer-2020" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/golden-gate-bridge-1081782_1280.58792.jpg.58794.jpg" title="Titelbild Golden Gate Bridge" aria-label="Titelbild Golden Gate Bridge" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/golden-gate-bridge-1081782_1280.58792.jpg.58794.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Internationales
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						04.08.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/internationales/briefe-aus-dem-silicon-valley-sommer-2020" target="_self">
+						Briefe aus dem Silicon Valley: Sommer 2020 
+					</a>
+					<p>
+						Ist das Silicon Valley bald schon Geschichte? Und sind die 
+Marktwerte von Elektroauto-Firmen wie Nikola und Tesla gerechtfertigt? 
+Unser Büro im Silicon Valley gibt frische Einblicke aus dem Techtal an 
+der amerikanischen Westküste.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/internationales/briefe-aus-dem-silicon-valley-sommer-2020" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/seit-wann-gibt-es-die-digitalisierung-geschichte-teil-eins" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Eniac_klein23.jpg.48999.jpg" title="Einer der ersten Computer: Der ENIAC" aria-label="Einer der ersten Computer: Der ENIAC" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Eniac_klein23.jpg.48999.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						31.07.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/seit-wann-gibt-es-die-digitalisierung-geschichte-teil-eins" target="_self">
+						Seit wann gibt es die Digitalisierung? Teil I
+					</a>
+					<p>
+						Eine historische Reise in das digitale Zeitalter. Seit wann gibt 
+es Digitalisierung und Industrie 4.0 – und wo ist da ein Unterschied? 
+Eines ist klar – die digitale Transformation ist mehr als die Geschichte
+ des Computers.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/seit-wann-gibt-es-die-digitalisierung-geschichte-teil-eins" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/gyde-wortmann-abat" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/wortmannoverlay1.jpg.65185.jpg" title="Gyde Wortmann hört zu, respektiert und schenkt Vertrauen – das ist ihr Erfolgsrezept. " aria-label="Gyde Wortmann hört zu, respektiert und schenkt Vertrauen – das ist ihr Erfolgsrezept. " role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/wortmannoverlay1.jpg.65185.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						17.07.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/gyde-wortmann-abat" target="_self">
+						Mit Vertrauen und Respekt erfolgreich in der Informatik - Gyde Wortmann
+					</a>
+					<p>
+						Gyde Wortmann ist Wirtschaftsinformatikerin. Das ist gut, aber 
+längst nicht alles. Geprägt wurde die Mitgründerin der abat AG 
+insbesondere durch ihre Kindheit an der deutsch-dänischen Grenze, durch 
+Judo und durch Menschen, die ihr etwas zugetraut haben. 
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/gyde-wortmann-abat" target="_self">
+						zur Story der Unternehmenslenkerin
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/digitalisierung-kosten-ausgaben-unternehmen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/dieersten_bild_1_teas.jpg.65045.jpg" title="Die beiden Gründer Carsten Timmermann und Henning Osterkamp" aria-label="Die beiden Gründer Carsten Timmermann und Henning Osterkamp" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/dieersten_bild_1_teas.jpg.65045.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						06.07.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/digitalisierung-kosten-ausgaben-unternehmen" target="_self">
+						Wie viel investieren Unternehmen in Digitalisierung?
+					</a>
+					<p>
+						Wieviel kostet Digitalisierung? In Bremen gibt es zwei, die das 
+beantworten können: Henning Osterkamp und Carsten Timmermann. Wir haben 
+uns einmal mit den beiden Digitalexperten und frisch gebackenen 
+Unternehmern unterhalten.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/digitalisierung-kosten-ausgaben-unternehmen" target="_self">
+						Zum Interview
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://kompetenzzentrum-bremen.digital/leitfaden-digitalisierung-unternehmen/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/hom80.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/hom80.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						11.06.2020
+					</div>
+					<a class="list-item-title" href="https://kompetenzzentrum-bremen.digital/leitfaden-digitalisierung-unternehmen/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						Leitfaden Digitalisierung: Das können Unternehmen jetzt tun, um sich zu digitalisieren
+					</a>
+					<p>
+						Nutzen Sie die Krise, um Ihr Unternehmen digital aufzustellen. In 
+unserem Leitfaden zeigen wir, wie die ersten Schritte in Richtung 
+Digitalisierung des eigenen Unternehmens gelingen. Und wo es 
+Unterstützung gibt.
+
+					</p>
+					<a class="list-item-link" href="https://kompetenzzentrum-bremen.digital/leitfaden-digitalisierung-unternehmen/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						zum Kompetenzzentrum Mittelstand
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://kompetenzzentrum-bremen.digital/?p=5487&amp;preview=true" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/RS44047_Uberseestadt_Blaue_StundeDJI_0456-lpr.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/RS44047_Uberseestadt_Blaue_StundeDJI_0456-lpr.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						02.06.2020
+					</div>
+					<a class="list-item-title" href="https://kompetenzzentrum-bremen.digital/?p=5487&amp;preview=true" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						Wie weit sind Bremen Unternehmen in der Digitalisierung?
+					</a>
+					<p>
+						Sind Unternehmen in der Hansestadt gut dabei in Sachen digitale 
+Transformation oder hinken sie hinterher? Das Bremer Mittelstand 4.0 
+Kompetenzzentrum hat sich darüber einmal Gedanken gemacht.
+					</p>
+					<a class="list-item-link" href="https://kompetenzzentrum-bremen.digital/?p=5487&amp;preview=true" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						zum Zentrum
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/05/beispiele-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/64d93d666355a43c4a86679a030d35b6_XL.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/64d93d666355a43c4a86679a030d35b6_XL.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						29.05.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/05/beispiele-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Diese 10 Beispiele für Industrie 4.0-Projekte zeigen, wie Digitalisierung gelingt
+					</a>
+					<p>
+						Die Coronakrise nutzen, um den nächsten Schritt zu gehen: Wir 
+haben zehn Best-Practices zusammengetragen – erfolgreiche Industrie 
+4.0-Beispiele zeigen, wie Unternehmen in die Digitalisierung starten.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/05/beispiele-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu Bremen-Innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://kompetenzzentrum-bremen.digital/wie-das-coronavirus-neue-geschaeftsprozesse-erzwingt/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/divt.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/divt.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						26.05.2020
+					</div>
+					<a class="list-item-title" href="https://kompetenzzentrum-bremen.digital/wie-das-coronavirus-neue-geschaeftsprozesse-erzwingt/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						Coronavirus erzwingt neue Geschäftsprozesse
+					</a>
+					<p>
+						In der Krise anpacken – die Medical Helpline Worldwide aus Bremen 
+sieht die Pandemie als Chance, um die eigene Effizienz zu steigern und 
+die Krisenanfälligkeit des Unternehmens zu senken - mit digitaler Hilfe.
+					</p>
+					<a class="list-item-link" href="https://kompetenzzentrum-bremen.digital/wie-das-coronavirus-neue-geschaeftsprozesse-erzwingt/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						zum Kompetenzzentrum Mittelstand
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/wie-bremer-unternehmen-in-der-corona-krise-helfen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Stoffmasken.jpg.64331.jpg" title="Stoffmasken an einer Wäscheleine " aria-label="Stoffmasken an einer Wäscheleine " role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Stoffmasken.jpg.64331.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Coronavirus
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						12.05.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/wie-bremer-unternehmen-in-der-corona-krise-helfen" target="_self">
+						Wie Bremer Unternehmen in der Corona-Krise helfen
+					</a>
+					<p>
+						Ungewöhnliche Situationen erfordern ungewöhnliche Maßnahmen: Das 
+Motto der Corona-Krise haben sich auch viele Bremer Unternehmen zu 
+Herzen genommen. Ob von Hand genähte Atemschutzmasken oder Schutzvisiere
+ aus dem 3D-Drucker – zahlreiche Firmen helfen mit innovativen Ideen und
+ Spendenaktionen.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/wie-bremer-unternehmen-in-der-corona-krise-helfen" target="_self">
+						MEHR ERFAHREN
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Voller-Begeisterung-fuer-Informatik" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/webmen_Christine_Niebuhr-Redder_01_klein_banner.jpg.64381.jpg" title="Christine Niebuhr von Webmen" aria-label="Christine Niebuhr von Webmen" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/webmen_Christine_Niebuhr-Redder_01_klein_banner.jpg.64381.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						06.05.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Voller-Begeisterung-fuer-Informatik" target="_self">
+						Voller Begeisterung für Informatik
+					</a>
+					<p>
+						Für Christiane Niebuhr-Redder ist es bis heute faszinierend, mit 
+Hilfe der Informatik Ideen aus dem Kopf auf einen Bildschirm zu 
+bekommen. Die Geschäftsführerin der Agentur WebMen hat gute Gründe, 
+jungen Frauen einen IT-Beruf zu empfehlen.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Voller-Begeisterung-fuer-Informatik" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/04/den-virtuellen-assistenten-vor-augen-wie-virtual-reality-und-kuenstliche-intelligenz-zusammenarbeiten/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/BMW_Remote-Support_c_Ubimax.jpg.64167.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/BMW_Remote-Support_c_Ubimax.jpg.64167.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						27.04.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/04/den-virtuellen-assistenten-vor-augen-wie-virtual-reality-und-kuenstliche-intelligenz-zusammenarbeiten/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Den virtuellen Assistenten vor Augen – wie Virtual Reality und künstliche Intelligenz zusammenarbeiten
+					</a>
+					<p>
+						Tragbare Computer und virtuell zugeschaltete Unterstützung – das 
+so genannte Wearable Computing ist ein Riesenmarkt. Mit Ubimax kommt 
+eines der weltweit führenden Unternehmen aus Bremen.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/04/den-virtuellen-assistenten-vor-augen-wie-virtual-reality-und-kuenstliche-intelligenz-zusammenarbeiten/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Zum innovativen Teamwork
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-kuenstliche-intelligenz-definition-ki" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Vorlage%20was%20ist-titel_zuschnitt.png.57629.png" title="Was ist KI " aria-label="Was ist KI " role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Vorlage%20was%20ist-titel_zuschnitt.png.57629.png&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						22.04.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-kuenstliche-intelligenz-definition-ki" target="_self">
+						Was ist künstliche Intelligenz?
+					</a>
+					<p>
+						Die Künstliche Intelligenz ist nach wie vor auf dem Vormarsch und 
+wird von immer mehr Unternehmen eingesetzt. Was steckt dahinter? Wir 
+definieren den Begriff.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-kuenstliche-intelligenz-definition-ki" target="_self">
+						KI einfach erklärt
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/video-audio-tools-digitale-konferenzen-meeting-schulungen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/com280.jpg.64018.jpg" title="Frau am Computer" aria-label="Frau am Computer" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/com280.jpg.64018.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						09.04.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/video-audio-tools-digitale-konferenzen-meeting-schulungen" target="_self">
+						Termine, Therapien und Schulungen online abhalten – 8 Programme, mit denen es gelingt
+					</a>
+					<p>
+						In vielen Berufen gehört persönlicher Kontakt dazu – die 
+Schutzmaßnahmen gegen das Coronavirus machen das jedoch unmöglich. Aber 
+auch digital können Treffen stattfinden, ob in Einzel- oder 
+Gruppengesprächen. Wir zeigen, wie einfach der Wechsel gelingen kann.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/video-audio-tools-digitale-konferenzen-meeting-schulungen" target="_self">
+						zu den Tools
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/corona-info-ticker-fuer-unternehmen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/c-info.jpg.63839.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/thumbnails/c-info.jpg.63839.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Coronavirus
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						18.03.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/corona-info-ticker-fuer-unternehmen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Coronavirus: Informationen und Kontakte für Unternehmen
+					</a>
+					<p>
+						Aktuelle Infos, Links und Kontakte zu den Angeboten des Landes 
+Bremen und des Bundes für Unternehmen, die durch die Corona Krise in 
+wirtschaftliche Schwierigkeiten geraten sind, finden Sie hier.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/corona-info-ticker-fuer-unternehmen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zur Corona-Info-Seite 
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://kompetenzzentrum-bremen.digital/ein-sparringspartner-fuer-die-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/CM_WBA_Betondicht_Wagener_Heydt_07.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/CM_WBA_Betondicht_Wagener_Heydt_07.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						10.03.2020
+					</div>
+					<a class="list-item-title" href="https://kompetenzzentrum-bremen.digital/ein-sparringspartner-fuer-die-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						Ein Sparringspartner für die Digitalisierung
+					</a>
+					<p>
+						Zwischen Beton und Building Information Management – das Bauwesen 
+digitalisiert sich. Die Bremer WBA Abdichtungssysteme setzen auf die 
+Unterstützung des Mittelstand 4.0-Kompetenzzentrums Bremen, um sich für 
+die Zukunft zu wappnen.
+					</p>
+					<a class="list-item-link" href="https://kompetenzzentrum-bremen.digital/ein-sparringspartner-fuer-die-digitalisierung/" target="_blank" title="Sie wechseln zum Internetangebot von kompetenzzentrum-bremen.digital">
+						Zum Blog
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/improvisationstheater-new-work" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Bild%201_Impro%20Artikel_CM.jpg.63716.jpg" title="Das Ensemble 12 Meter Hase beim “Future Work Improvisationstheater” im Tau, in der Bremer Weserburg." aria-label="Das Ensemble 12 Meter Hase beim “Future Work Improvisationstheater” im Tau, in der Bremer Weserburg." role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Bild%201_Impro%20Artikel_CM.jpg.63716.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						02.03.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/improvisationstheater-new-work" target="_self">
+						Mit Improvisationstheater in die Zukunft sehen
+					</a>
+					<p>
+						Kann Theater helfen, mit den Herausforderungen des Bürojobs von 
+morgen umzugehen? Ja, meinen unsere beiden Gastautoren – und haben es 
+mit einer kleinen Gruppe Freiwilliger ausgetestet.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/improvisationstheater-new-work" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/02/warum-new-work-mehr-als-nur-ein-hype-ist/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/CM_1_20200119_WFB-Personalerstammtisch_InnoLab_Mercedes__.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/CM_1_20200119_WFB-Personalerstammtisch_InnoLab_Mercedes__.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						11.02.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/02/warum-new-work-mehr-als-nur-ein-hype-ist/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Warum New Work mehr als nur ein Hype ist
+					</a>
+					<p>
+						Über New Work ist aller Orten zu lesen. Ist es das nächste 
+Buzzword, der nächste Hype? Warum mehr dahinter steckt – und wie sich in
+ Bremen Firmen austauschen, um gemeinsam den Herausforderungen der neuen
+ Arbeit zu begegnen. 
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/02/warum-new-work-mehr-als-nur-ein-hype-ist/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zu Bremen-innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/bremer-gewuerzhandel-und-soziale-verantwortung" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Daniel_1_CM.jpg.63414.jpg" title="Daniel König, Gründer des Bremer Gewürzhandels" aria-label="Daniel König, Gründer des Bremer Gewürzhandels" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Daniel_1_CM.jpg.63414.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Nahrungs- und Genussmittelwirtschaft
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						05.02.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/bremer-gewuerzhandel-und-soziale-verantwortung" target="_self">
+						„Ich will Gutes essen und Gutes tun“
+					</a>
+					<p>
+						Ein Unternehmen, bei dem Gewinn nicht an erster Stelle steht, 
+sondern Qualität und Engagement für Soziales. Gibt es so etwas noch? Wer
+ in Bremen so jemanden finden will, muss nur seiner Nase folgen – in den
+ Stadtteil Findorff.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/bremer-erfolgsgeschichten/bremer-gewuerzhandel-und-soziale-verantwortung" target="_self">
+						wo Gewürze verführerisch duften
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Perfekte-Liaison-von-Informatik-und-Internationalitaet" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Axtrion_Sadia_Shakil_04_Teaser.jpg.63373.jpg" title="Bild von Sadia Shakil" aria-label="Bild von Sadia Shakil" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Axtrion_Sadia_Shakil_04_Teaser.jpg.63373.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						31.01.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Perfekte-Liaison-von-Informatik-und-Internationalitaet" target="_self">
+						Perfekte Liaison von Informatik und Internationalität 
+					</a>
+					<p>
+						Sadia Shakil wurde in Pakistan geboren, hat in Deutschland 
+studiert und mit ihrem Mann die Axtrion GmbH &amp; Co. KG in Bremen 
+gegründet. Dass sie ausgerechnet nach Bremen kam, hat sie einer 
+Bibliothekarin am Goethe-Institut Karachi zu verdanken.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Perfekte-Liaison-von-Informatik-und-Internationalitaet" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Warum-der-klassische-Manager-heute-ausgedient-hat" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/FUNKEBERGSTRA-V03_32.jpg.63348.jpg" title="Gründer von FunkeBergstra Innovation: Kathrin Funke-Bergstra und Gerben N. Bergstra" aria-label="Gründer von FunkeBergstra Innovation: Kathrin Funke-Bergstra und Gerben N. Bergstra" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/FUNKEBERGSTRA-V03_32.jpg.63348.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Start-ups
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						29.01.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Warum-der-klassische-Manager-heute-ausgedient-hat" target="_self">
+						Warum der klassische Manager heute ausgedient hat
+					</a>
+					<p>
+						Ein Mensch allein kann heute die Komplexität der Welt nicht 
+überblicken – das gilt auch für Führungskräfte. Aber wie werden dann in 
+Zukunft Entscheidungen getroffen? Ein Bremer Team hat darauf eine 
+Antwort.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/Warum-der-klassische-Manager-heute-ausgedient-hat" target="_self">
+						Zur Arbeit der Zukunft
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/pts-group-bremen-new-work" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/RS52409_PTS_NewWork_05-lpr.jpg.63273.jpg" title="Individuelle Zeiteinteilung - offene Gruppen forschen eigenständig an neuen Themen" aria-label="Individuelle Zeiteinteilung - offene Gruppen forschen eigenständig an neuen Themen" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/RS52409_PTS_NewWork_05-lpr.jpg.63273.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						28.01.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/pts-group-bremen-new-work" target="_self">
+						Von digitalen Zwillingen und dem Mut zu neuen Ideen
+					</a>
+					<p>
+						Ein hohes Maß an Freiheit, die Chance eigene Projekte zu 
+verfolgen, flache Hierarchien, neue Arbeitsformen - wer sich bei der PTS
+ Group umschaut, könnte sich auch im Silicon Valley wähnen. Warum das 
+Bremer Unternehmen so innovativer und schlagkräftiger wird.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/pts-group-bremen-new-work" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://starthaus-bremen.de/allgemein/den-roten-faden-im-leben-gefunden" target="_blank" title="Sie wechseln zum Internetangebot von starthaus-bremen.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/Fadenfactory-Antje_Heuer_1.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/Fadenfactory-Antje_Heuer_1.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Start-ups
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						17.01.2020
+					</div>
+					<a class="list-item-title" href="https://starthaus-bremen.de/allgemein/den-roten-faden-im-leben-gefunden" target="_blank" title="Sie wechseln zum Internetangebot von starthaus-bremen.de">
+						Den roten Faden im Leben gefunden
+					</a>
+					<p>
+						Die Bremerin Antje Heuer hat ihren Job aufgegeben, um sich mit 
+ihrem Modelabel selbstständig zu machen. Ein befreiender Schnitt.
+					</p>
+					<a class="list-item-link" href="https://starthaus-bremen.de/allgemein/den-roten-faden-im-leben-gefunden" target="_blank" title="Sie wechseln zum Internetangebot von starthaus-bremen.de">
+						zur Designerin
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/juliane-jarke-it-frauen-professorin-informatik" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/TeaserJarke.jpg.63116.jpg" title="Bild von Juliane Jarke - Frauen in der IT" aria-label="Bild von Juliane Jarke - Frauen in der IT" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/TeaserJarke.jpg.63116.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						15.01.2020
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/juliane-jarke-it-frauen-professorin-informatik" target="_self">
+						Blick weit über Tastatur und Monitor hinaus
+					</a>
+					<p>
+						Einfach nur Hard- oder Software entwickeln reicht ihr nicht: Für 
+Juliane Jarke funktioniert Technik erst dann, wenn sie auch in sozialen 
+Systemen funktioniert. Darum arbeitet sie mit den Zielgruppen zusammen –
+ ein Ansatz, der so naheliegend und doch nicht immer einfach zu 
+realisieren ist. 
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/juliane-jarke-it-frauen-professorin-informatik" target="_self">
+						zur Professorin
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2020/01/uebersicht-kuenstliche-intelligenz-2019/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/technology-4256272_1920.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/technology-4256272_1920.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						11.01.2020
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2020/01/uebersicht-kuenstliche-intelligenz-2019/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						So nahm die künstliche Intelligenz in Bremen 2019 Fahrt auf
+					</a>
+					<p>
+						Ob eine KI für Werder Bremen oder Roboter, die mit Lasern 
+ausgestattet sind: Diese und weitere Geschichten in unserem 
+KI-Überblick!
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2020/01/uebersicht-kuenstliche-intelligenz-2019/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zum KI-Jahresrückblick
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bab-bremen.de/stories/comkopie-gruppe-digitaler-wandel.html" target="_blank" title="Sie wechseln zum Internetangebot von www.bab-bremen.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/Artikel_Comkopie_001.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/Artikel_Comkopie_001.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						13.12.2019
+					</div>
+					<a class="list-item-title" href="https://www.bab-bremen.de/stories/comkopie-gruppe-digitaler-wandel.html" target="_blank" title="Sie wechseln zum Internetangebot von www.bab-bremen.de">
+						Was macht eine Druckerei, wenn niemand mehr drucken will?
+					</a>
+					<p>
+						Dass immer weniger gedruckt wird, ist kein Geheimnis. Aber wie 
+gehen Druckereien und Druckdienstleister damit um? Die Antwort: Sie 
+bauen sich ein neues Haus.
+					</p>
+					<a class="list-item-link" href="https://www.bab-bremen.de/stories/comkopie-gruppe-digitaler-wandel.html" target="_blank" title="Sie wechseln zum Internetangebot von www.bab-bremen.de">
+						Zum BAB-Artikel
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/stadtentwicklung-gewerbeflaechen-und-immobilien/new-work-in-bremen-polis-keynotes" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/polis_Keynote_New_Work_098_klein.jpg.62677.jpg" title="Neue Arbeitswelten benötigen neue Umgebungen - aber welche?" aria-label="Neue Arbeitswelten benötigen neue Umgebungen - aber welche?" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/polis_Keynote_New_Work_098_klein.jpg.62677.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Stadtentwicklung
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						11.12.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/stadtentwicklung-gewerbeflaechen-und-immobilien/new-work-in-bremen-polis-keynotes" target="_self">
+						Leben und Arbeiten in neuen Umgebungen
+					</a>
+					<p>
+						Mit „New Work“ ändert sich unsere Arbeitswelt. Und damit auch die 
+Ansprüche an Immobilien - wie dieser Umbruch gelingen kann, dazu haben 
+wir mit fünf Experten gesprochen.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/stadtentwicklung-gewerbeflaechen-und-immobilien/new-work-in-bremen-polis-keynotes" target="_self">
+						zur Diskussion
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/notdienst-finden-bremen-notprofi" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Bild%20Henrik%20Winter%20und%20Sebastian%20Hirt_1.jpg.62497.jpg" title="Bild von Henrik Winter und Sebastian Hirt" aria-label="Bild von Henrik Winter und Sebastian Hirt" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Bild%20Henrik%20Winter%20und%20Sebastian%20Hirt_1.jpg.62497.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Überseestadt
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						02.12.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/notdienst-finden-bremen-notprofi" target="_self">
+						Dieses Start-up hilft, seriöse Notdienste zu finden
+					</a>
+					<p>
+						In Not Geratene ausnutzen – leider allzu oft Realität bei 
+Notdiensten für verstopfte Abwasserrohre, Heizungslecks oder zugefallene
+ Türen. Ein Bremer Start-up entwickelt eine Plattform, welche vor den 
+schwarzen Schafen der Branche schützt.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/notdienst-finden-bremen-notprofi" target="_self">
+						zum Notprofi
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/einzelhandel-lokal-offline-oder-online" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/ezh2__JON5023-lpr.jpg.62385.jpg" title="Wie kann der Einzelhandel dem Onlinegeschäft paroli bieten? Eine Umfrage bringt Klarheit" aria-label="Wie kann der Einzelhandel dem Onlinegeschäft paroli bieten? Eine Umfrage bringt Klarheit" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/ezh2__JON5023-lpr.jpg.62385.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						27.11.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/einzelhandel-lokal-offline-oder-online" target="_self">
+						Hat der Einzelhandel gegenüber dem Onlinegeschäft noch eine Chance?
+					</a>
+					<p>
+						Stirbt der Einzelhandel aus? Und hat Bargeld ausgedient? Eine neue
+ Bremer Umfrage bietet Klarheit – und einige überraschende Erkenntnisse.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/einzelhandel-lokal-offline-oder-online" target="_self">
+						zu den Ergebnissen
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2019/11/kuenstliche-intelligenz-im-kleinunternehmen-einsetzen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/Innup_KI_Philip_Bock_11_klein%23.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/Innup_KI_Philip_Bock_11_klein%23.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						25.11.2019
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2019/11/kuenstliche-intelligenz-im-kleinunternehmen-einsetzen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Künstliche Intelligenz im Kleinunternehmen: Geht das?
+					</a>
+					<p>
+						Künstliche Intelligenzen entwickeln und einsetzen – das ist doch 
+nur was für Google, Apple und Facebook. Oder? Ein Bremer Betrieb 
+beweist, dass auch Kleinunternehmen KIs realisieren können.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2019/11/kuenstliche-intelligenz-im-kleinunternehmen-einsetzen/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						zum Portal Bremen Innovativ
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/digital-starten-in-bremen-foerderung" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/DSC0282_Digitalteam_2_zu_klein.jpg.62257.jpg" title="Mit Durchblick in die Digitalisierung - Bremen macht das möglich" aria-label="Mit Durchblick in die Digitalisierung - Bremen macht das möglich" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/DSC0282_Digitalteam_2_zu_klein.jpg.62257.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						14.11.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/digital-starten-in-bremen-foerderung" target="_self">
+						Digital starten in Bremen – alle Orte, alle Ansprechpersonen
+					</a>
+					<p>
+						Mit der Digitalisierung anzufangen ist ein bisschen so, wie ohne 
+Karte und GPS in See zu stechen – niemand weiß, wo die Reise hingeht und
+ was unterwegs wartet. In Bremen gibt es jedoch an vielen Stellen Hilfe 
+für eine sichere Passage – und wir haben einmal aufgelistet, wo.
+
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/digital-starten-in-bremen-foerderung" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.bremen-innovativ.de/2019/10/logistiklotsen-fuer-die-metropolregion-nordwest/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/Podcast%20Bremen%20Innovativ%20Sven%20Herrmann.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/Podcast%20Bremen%20Innovativ%20Sven%20Herrmann.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Podcast Bremen Innovativ
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						01.11.2019
+					</div>
+					<a class="list-item-title" href="https://www.bremen-innovativ.de/2019/10/logistiklotsen-fuer-die-metropolregion-nordwest/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Logistiklotsen für die Metropolregion Nordwest
+					</a>
+					<p>
+						Zahlreiche schlaue Köpfe arbeiten in Bremen an neuen Technologien,
+ Erfindungen und guten Ideen. Der neue Podcast von Bremen Innovativ 
+stellt diese regelmäßig vor. In dieser Folge ist Sven Hermann zu Gast, 
+der über das Thema New Work und darüber wie Firmen Innovationen in die 
+Praxis umsetzen können spricht.
+					</p>
+					<a class="list-item-link" href="https://www.bremen-innovativ.de/2019/10/logistiklotsen-fuer-die-metropolregion-nordwest/" target="_blank" title="Sie wechseln zum Internetangebot von www.bremen-innovativ.de">
+						Zum Podcast
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/standortmarketing/tradition-trifft-auf-innovation" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/teaser_wirtschaftsstandort_c_wfb-jonas-ginter.jpg.56874.jpg" title="Infrastruktur, Gewerbeflächenangebot, Arbeitskräftepotenzial - Bremen überzeugt mit starken Standortfaktoren" aria-label="Infrastruktur, Gewerbeflächenangebot, Arbeitskräftepotenzial - Bremen überzeugt mit starken Standortfaktoren" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/teaser_wirtschaftsstandort_c_wfb-jonas-ginter.jpg.56874.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Wirtschaftsstandort
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						01.11.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/standortmarketing/tradition-trifft-auf-innovation" target="_self">
+						Tradition trifft auf Innovation
+					</a>
+					<p>
+						Im Bundesland Bremen leben auf 420 Quadratkilometern circa 670.000
+ Menschen. Fast 22.000 Unternehmen bieten mehr als 325.000 
+Arbeitsplätze. Wir stellen die starken Branchen des Wirtschaftsstandorts
+ Bremen vor.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/standortmarketing/tradition-trifft-auf-innovation" target="_self">
+						Zu Bremens starken Branchen 
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/dieses-3d-metalldruck-werk-stellt-in-bremen-titan-und-aluminiumbauteile-he" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Materialise_Neubau_Bremen_Grafik._kleinjpg.jpg.61910.jpg" title="So soll das neue Kompetenzzentrum von Materialise künftig aussehen" aria-label="So soll das neue Kompetenzzentrum von Materialise künftig aussehen" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Materialise_Neubau_Bremen_Grafik._kleinjpg.jpg.61910.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Neu in Bremen
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						17.10.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/dieses-3d-metalldruck-werk-stellt-in-bremen-titan-und-aluminiumbauteile-he" target="_self">
+						Neues 3D-Druck-Werk in Bremen für Titan und Aluminium
+					</a>
+					<p>
+						Im industriellen Maßstab Metalle zu drucken ist keine 
+Zukunftsmusik – das beweist das geplante Bremer 
+3D-Druck-Kompetenzzentrum mit seinen 30 Druckern. Gebaut wird es von 
+einem der weltweit führenden Unternehmen in dem Bereich.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/dieses-3d-metalldruck-werk-stellt-in-bremen-titan-und-aluminiumbauteile-he" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/frauen-informatik-it-bremen" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/Ada_Lovelace_portrait.jpg.61782.jpg" title="Die britische Mathematikerin Ada Lovelace war eine Visionärin: Sie schrieb bereits 1843 hat das erste Computerprogramm " aria-label="Die britische Mathematikerin Ada Lovelace war eine Visionärin: Sie schrieb bereits 1843 hat das erste Computerprogramm " role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/Ada_Lovelace_portrait.jpg.61782.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Digitalisierung / Industrie 4.0
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						08.10.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/frauen-informatik-it-bremen" target="_self">
+						Bremer Frauen in der IT: Auf den Spuren von Ada Lovelace
+					</a>
+					<p>
+						Zum Ada Lovelace Day am 8. Oktober 2019 berichten fünf Bremer 
+Frauen über ihren Weg in der Informatik und ihre Erfolge in Wirtschaft 
+und Wissenschaft.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/frauen-informatik-it-bremen" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://starthaus-bremen.de/allgemein/der-theorie-praktiker" target="_blank" title="Sie wechseln zum Internetangebot von starthaus-bremen.de">
+					<div class="list-item-header-image" data-bg="https://www.wfb-bremen.de/sixcms/media.php/63/amsis_1_1100.jpg" title="" aria-label="" role="img" style="background-image: url(&quot;https://www.wfb-bremen.de/sixcms/media.php/63/amsis_1_1100.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Start-ups
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						02.10.2019
+					</div>
+					<a class="list-item-title" href="https://starthaus-bremen.de/allgemein/der-theorie-praktiker" target="_blank" title="Sie wechseln zum Internetangebot von starthaus-bremen.de">
+						Der Theorie-Praktiker
+					</a>
+					<p>
+						Vasily Ploshikhin ist 3D-Druck-Experte und will die Technologie 
+mit einer innovativen Software entscheidend voranbringen. Warum er dazu 
+vom Professor zum Unternehmer wird.
+					</p>
+					<a class="list-item-link" href="https://starthaus-bremen.de/allgemein/der-theorie-praktiker" target="_blank" title="Sie wechseln zum Internetangebot von starthaus-bremen.de">
+						Zum Starthaus-Artikel
+					</a>
+				</div>
+			</div>
+		</div><div class="list-item col-lg-4 cmc-list-item hidden">
+			<div class="list-item-content">
+				<a class="list-item-header no-padding" href="https://www.wfb-bremen.de/de/page/stories/stadtentwicklung-gewerbeflaechen-und-immobilien/drei-fragen-senatorin-vogt" target="_self">
+					<div class="list-item-header-image" data-bg="/sixcms/media.php/63/thumbnails/20190821_LeipzigerErklaerung.jpg.61637.jpg" title="Senatorin Kristina Vogt spricht auf dem Podium der Nationalen Luftfahrtkonferenz 2019" aria-label="Senatorin Kristina Vogt spricht auf dem Podium der Nationalen Luftfahrtkonferenz 2019" role="img" style="background-image: url(&quot;/sixcms/media.php/63/thumbnails/20190821_LeipzigerErklaerung.jpg.61637.jpg&quot;);"></div>
+					<div class="list-item-header-label">
+						Stadtentwicklung
+					</div>
+				</a>
+				<div class="list-item-body">
+					<div class="list-item-date">
+						30.09.2019
+					</div>
+					<a class="list-item-title" href="https://www.wfb-bremen.de/de/page/stories/stadtentwicklung-gewerbeflaechen-und-immobilien/drei-fragen-senatorin-vogt" target="_self">
+						Drei Fragen an Senatorin Kristina Vogt
+					</a>
+					<p>
+						Welche Impulse kann die Wirtschaft in Bremen und Bremerhaven von 
+der neuen Senatorin Kristina Vogt erwarten? Wir haben einmal 
+nachgefragt.
+					</p>
+					<a class="list-item-link" href="https://www.wfb-bremen.de/de/page/stories/stadtentwicklung-gewerbeflaechen-und-immobilien/drei-fragen-senatorin-vogt" target="_self">
+						Mehr erfahren
+					</a>
+				</div>
+			</div>
+		</div>
+			</div>
+			<div class="list-footer">
+				<button class="more-button more-cmc-article">
+			Weitere Artikel
+			<i class="fa fa-chevron-right"></i>
+		</button>
+			</div>
+		</div>
+            
+            <div class="row">
+                <div class="col-lg-8 content-container">
+                    
+                </div>
+            </div>
+        </div>
+            <footer class="container footer">
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="column-list contact">
+            
+            <li>WFB Wirtschaftsförderung Bremen GmbH</li>
+            <li class="footer-gap"></li>
+            <li>Kontorhaus am Markt</li>
+            <li>Langenstraße 2-4</li>
+            <li>(Eingang Stintbrücke 1)</li>
+            <li>28195 Bremen</li>
+            <li class="footer-gap"></li>
+            <li>T +49 (0) 421 9600-10</li>
+            
+            <li class="footer-gap"></li>
+            <li>
+                <a href="mailto:mail@wfb-bremen.de" class="mail">mail@wfb-bremen.de</a>
+            </li>
+        </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="column-list sitemap">
+                        <li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen" target="_self">
+                Wirtschaftsstandort Bremen
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/automotive" target="_self">
+                Automotive
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/digitalisierung" target="_self">
+                Digitalisierung
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/immobilienwirtschaft" target="_self">
+                Immobilienwirtschaft
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/luft-und-raumfahrt" target="_self">
+                Luft- und Raumfahrt
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/maritime-wirtschaft-logistik" target="_self">
+                Maritime Wirtschaft / Logistik
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/branche-nahrung-genuss" target="_self">
+                Nahrungs- und Genussmittel
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/startup" target="_self">
+                Start-ups
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/tourismus" target="_self">
+                Tourismus und Kongresse
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/windenergie" target="_self">
+                Windenergie
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/mehr-branchen" target="_self">
+                Weitere Branchen
+            </a>
+        </li></ul></li><li>
+            <a href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung" target="_self">
+                Beratung &amp; Förderung
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung/service-fuer-unternehmen" target="_self">
+                Service für Unternehmen
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung/fachkraefte" target="_self">
+                Fachkräfte für Bremen
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/beratung-und-foerderung/foerderprogramme-fuer-bremen" target="_self">
+                Förderangebote
+            </a>
+        </li></ul></li><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien" target="_self">
+                Grundstücke &amp; Immobilien
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/gewerbeflaechen-bremen" target="_self">
+                Gewerbeflächen
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/gewerbeimmobilien-bremen" target="_self">
+                Gewerbeimmobilien
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/immobilien-marktdaten" target="_self">
+                Marktdaten
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/technologie-gruenderzentren" target="_self">
+                Technologie- / Gründerzentren
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/technologie-gruenderzentren" target="_self">
+                Firmenverzeichnis
+            </a>
+        </li></ul></li><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/technologie-gruenderzentren/world-trade-center-bremen" target="_self">
+                World Trade Center
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/grundstuecke-und-immobilien/ecomat" target="_self">
+                ECOMAT Zentrum für Leichtbau
+            </a>
+        </li></ul></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="column-list sitemap">
+                        <li>
+            <a href="https://www.wfb-bremen.de/de/page/ansiedlung" target="_self">
+                Ansiedlung
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/ansiedlung/ansiedlung-in-bremen" target="_self">
+                Unsere Ansiedlungsservices
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/wirtschaftsstandort-bremen/bremen-international" target="_self">
+                Bremen international
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/ansiedlung/ansiedlung_referenzen" target="_self">
+                Referenzen
+            </a>
+        </li></ul></li><li>
+            <a href="https://www.wfb-bremen.de/de/page/marketing" target="_self">
+                Marketing für Bremen
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/marketing/messebeteiligungen" target="_self">
+                Messebeteiligungen
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/marketing/projekte" target="_self">
+                Marketing-Projekte
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/marketing/kultur-und-sportveranstaltungsfoerderung" target="_self">
+                Veranstaltungsförderung
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/marketing/marketing-planungsservice" target="_self">
+                CD- und Marken-Manual
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/marketing/media-center" target="_self">
+                Marketing-Service
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/marketing/tourismusstrategie" target="_self">
+                Tourismusstrategie Bremen 2025
+            </a>
+        </li></ul></li><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles" target="_self">
+                Presse &amp; Aktuelles
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles/presse" target="_self">
+                Presse / Pressedienst
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles/kundenmagazin" target="_self">
+                Kundenmagazin WFB News
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles/newsletter_anmeldung" target="_self">
+                Newsletter der WFB
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles/podcast" target="_self">
+                Podcast
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles/veranstaltungen" target="_self">
+                Veranstaltungskalender
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles/ausschreibungen" target="_self">
+                Ausschreibungen
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/aktuelles/publikationen" target="_self">
+                Downloads / Publikationen
+            </a>
+        </li></ul></li><li>
+            <a href="https://www.wfb-bremen.de/de/page/ueber-uns" target="_self">
+                Über uns
+            </a><ul><li>
+            <a href="https://www.wfb-bremen.de/de/page/ueber-uns/anfahrt-kontakt" target="_self">
+                Anfahrt / Kontakt
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/ueber-uns/ansprechpersonen" target="_self">
+                Ansprechpersonen
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/ueber-uns/stellenangebote" target="_self">
+                Stellenangebote
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/ueber-uns/corporate-governance" target="_self">
+                Corporate Governance und Beteiligungen
+            </a>
+        </li></ul></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="column-list quicklinks">
+                        <li>
+            <a href="https://www.wfb-bremen.de/de/page/startseite/barrierefreiheit" target="_self">
+                Barrierefreiheit
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/startseite/impressum" target="_self">
+                Impressum
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/startseite/datenschutz" target="_self">
+                Datenschutz
+            </a>
+        </li><li>
+            <a href="https://www.wfb-bremen.de/de/page/disclaimer" target="_self">
+                Disclaimer
+            </a>
+        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+            <div class="container footer-logos">
+            <a class="footer-logo logo-wfb" href="https://www.wfb-bremen.de/">
+            <img src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/logo-wfb.svg" alt="Logo wfb">
+            
+        </a><a class="footer-logo logo-bab" href="https://www.bab-bremen.de/">
+            <img src="Was%20ist%20ein%20neuronales%20Netz%20-%20WFB-Dateien/logo-bab.svg" alt="Logo bab">
+            
+        </a>
+        </div>
+        
+
+        </body></html>
